@@ -1,0 +1,204 @@
+/home/mshu/TASSEL_3/lib/LiuExt.jar:/home/mshu/TASSEL_3/lib/XmlSchema-1.3.1.jar:/home/mshu/TASSEL_3/lib/axiom-api-1.2.4.jar:/home/mshu/TASSEL_3/lib/axiom-impl-1.2.4.jar:/home/mshu/TASSEL_3/lib/axis2-kernel-1.2.jar:/home/mshu/TASSEL_3/lib/batik-awt-util.jar:/home/mshu/TASSEL_3/lib/batik-css.jar:/home/mshu/TASSEL_3/lib/batik-dom.jar:/home/mshu/TASSEL_3/lib/batik-ext.jar:/home/mshu/TASSEL_3/lib/batik-gui-util.jar:/home/mshu/TASSEL_3/lib/batik-gvt.jar:/home/mshu/TASSEL_3/lib/batik-parser.jar:/home/mshu/TASSEL_3/lib/batik-svg-dom.jar:/home/mshu/TASSEL_3/lib/batik-svggen.jar:/home/mshu/TASSEL_3/lib/batik-util.jar:/home/mshu/TASSEL_3/lib/batik-xml.jar:/home/mshu/TASSEL_3/lib/biojava3-alignment-3.0.jar:/home/mshu/TASSEL_3/lib/biojava3-core-3.0.jar:/home/mshu/TASSEL_3/lib/biojava3-phylo-3.0.jar:/home/mshu/TASSEL_3/lib/cisd-jhdf5-batteries_included_lin_win_mac.jar:/home/mshu/TASSEL_3/lib/colt.jar:/home/mshu/TASSEL_3/lib/commons-codec-1.3.jar:/home/mshu/TASSEL_3/lib/commons-collections-3.1.jar:/home/mshu/TASSEL_3/lib/commons-configuration-1.2.jar:/home/mshu/TASSEL_3/lib/commons-dbcp-1.2.1.jar:/home/mshu/TASSEL_3/lib/commons-discovery.jar:/home/mshu/TASSEL_3/lib/commons-httpclient-3.0.1.jar:/home/mshu/TASSEL_3/lib/commons-lang-2.1.jar:/home/mshu/TASSEL_3/lib/commons-logging-1.1.jar:/home/mshu/TASSEL_3/lib/commons-math-2.2.jar:/home/mshu/TASSEL_3/lib/commons-pool-1.3.jar:/home/mshu/TASSEL_3/lib/crimson-parser.jar:/home/mshu/TASSEL_3/lib/ejml-0.13.jar:/home/mshu/TASSEL_3/lib/forester.jar:/home/mshu/TASSEL_3/lib/gdpc.jar:/home/mshu/TASSEL_3/lib/geronimo-spec-activation-1.0.2-rc4.jar:/home/mshu/TASSEL_3/lib/jcommon-1.0.6.jar:/home/mshu/TASSEL_3/lib/jfreechart-1.0.3.jar:/home/mshu/TASSEL_3/lib/jgrapht-0.5.3.jar:/home/mshu/TASSEL_3/lib/jung-1.7.5.jar:/home/mshu/TASSEL_3/lib/junit-4.1.jar:/home/mshu/TASSEL_3/lib/log4j-1.2.13.jar:/home/mshu/TASSEL_3/lib/lzma-4.63-jio-0.93.jar:/home/mshu/TASSEL_3/lib/mail-1.4.jar:/home/mshu/TASSEL_3/lib/mysql-connector-java-3.1.13-bin.jar:/home/mshu/TASSEL_3/lib/poi-3.0.1-FINAL-20070705.jar:/home/mshu/TASSEL_3/lib/ssj.jar:/home/mshu/TASSEL_3/lib/wsdl4j-1.6.2.jar:/home/mshu/TASSEL_3/lib/xercesImpl.jar:/home/mshu/TASSEL_3/lib/xml.jar:/home/mshu/TASSEL_3/lib/xmlParserAPIs.jar:/home/mshu/TASSEL_3/sTASSEL.jar
+Memory Settings: -Xms100G -Xmx200G
+Tassel Pipeline Arguments: -fork1 -UTagPairToTBTPlugin -w /qsb/mshu/UNEAK/ -endPlugin -runfork1
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Version: 3.0.174  Date: March 3, 2016
+net.maizegenetics.gbs.pipeline.UTagPairToTBTPlugin
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagPair/tagPair.tps
+Number of Tags in file:8157768
+Position index sort begin.
+Position index sort end.
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/18051_HG2C5BBXX_5_D11_ApeKIPinus_X5.cnt
+Number of Tags in file:1861202
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/18207_HG2C5BBXX_5_B4_ApeKIPinus_X5.cnt
+Number of Tags in file:1678135
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/18231_HGGWTBBXX_6_C2_ApeKIPinus_X5.cnt
+Number of Tags in file:1961730
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/18814_HGGWTBBXX_6_A7_ApeKIPinus_X5.cnt
+Number of Tags in file:2103536
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/18830_HG2C5BBXX_5_C6_ApeKIPinus_X5.cnt
+Number of Tags in file:2416067
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3006_HGGWTBBXX_6_B2_ApeKIPinus_X5.cnt
+Number of Tags in file:2086462
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3010_HG2C5BBXX_5_C9_ApeKIPinus_X5.cnt
+Number of Tags in file:1651671
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3015_HGGWTBBXX_6_A3_ApeKIPinus_X5.cnt
+Number of Tags in file:2005012
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3019_HGGWTBBXX_6_D7_ApeKIPinus_X5.cnt
+Number of Tags in file:2234244
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3020_HGGWTBBXX_6_D8_ApeKIPinus_X5.cnt
+Number of Tags in file:2039157
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3022_HGGWTBBXX_6_B4_ApeKIPinus_X5.cnt
+Number of Tags in file:1854070
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3027_HG2C5BBXX_5_A4_ApeKIPinus_X5.cnt
+Number of Tags in file:4292004
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3034_HGGWTBBXX_6_C11_ApeKIPinus_X5.cnt
+Number of Tags in file:1991214
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3037_HG2C5BBXX_5_A11_ApeKIPinus_X5.cnt
+Number of Tags in file:2267184
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3039_HGGWTBBXX_6_A4_ApeKIPinus_X5.cnt
+Number of Tags in file:4224018
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3040_HG2C5BBXX_5_A6_ApeKIPinus_X5.cnt
+Number of Tags in file:2299569
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3041_HG2C5BBXX_5_B5_ApeKIPinus_X5.cnt
+Number of Tags in file:2407098
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3046_HG2C5BBXX_5_A9_ApeKIPinus_X5.cnt
+Number of Tags in file:2073558
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3048_HG2C5BBXX_5_A8_ApeKIPinus_X5.cnt
+Number of Tags in file:1337071
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3057_HGGWTBBXX_6_A12_ApeKIPinus_X5.cnt
+Number of Tags in file:1936161
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3061_HG2C5BBXX_5_B1_ApeKIPinus_X5.cnt
+Number of Tags in file:1891378
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3063_HG2C5BBXX_5_B2_ApeKIPinus_X5.cnt
+Number of Tags in file:2057069
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3066_HGGWTBBXX_6_D9_ApeKIPinus_X5.cnt
+Number of Tags in file:1954759
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3068_HG2C5BBXX_5_C10_ApeKIPinus_X5.cnt
+Number of Tags in file:1966164
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3071_HGGWTBBXX_6_D10_ApeKIPinus_X5.cnt
+Number of Tags in file:3308243
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3073_HGGWTBBXX_6_B3_ApeKIPinus_X5.cnt
+Number of Tags in file:1815736
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3075_HGGWTBBXX_6_A8_ApeKIPinus_X5.cnt
+Number of Tags in file:2748024
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3088_HG2C5BBXX_5_B10_ApeKIPinus_X5.cnt
+Number of Tags in file:2109577
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3091_HGGWTBBXX_6_A1_ApeKIPinus_X5.cnt
+Number of Tags in file:1948614
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3121_HG2C5BBXX_5_B12_ApeKIPinus_X5.cnt
+Number of Tags in file:1898384
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3129_HG2C5BBXX_5_C7_ApeKIPinus_X5.cnt
+Number of Tags in file:2306141
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3137_HGGWTBBXX_6_B1_ApeKIPinus_X5.cnt
+Number of Tags in file:1925994
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3138_HG2C5BBXX_5_B6_ApeKIPinus_X5.cnt
+Number of Tags in file:1926823
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3152_HG2C5BBXX_5_C11_ApeKIPinus_X5.cnt
+Number of Tags in file:1642300
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3156_HGGWTBBXX_6_D3_ApeKIPinus_X5.cnt
+Number of Tags in file:1578868
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3165_HG2C5BBXX_5_C12_ApeKIPinus_X5.cnt
+Number of Tags in file:2025988
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3166_HG2C5BBXX_5_B9_ApeKIPinus_X5.cnt
+Number of Tags in file:2432402
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3174_HGGWTBBXX_6_D6_ApeKIPinus_X5.cnt
+Number of Tags in file:2081444
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3178_HGGWTBBXX_6_B6_ApeKIPinus_X5.cnt
+Number of Tags in file:1723793
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3181_HGGWTBBXX_6_C7_ApeKIPinus_X5.cnt
+Number of Tags in file:2127166
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3185_HGGWTBBXX_6_B5_ApeKIPinus_X5.cnt
+Number of Tags in file:1780457
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3186_HGGWTBBXX_6_A6_ApeKIPinus_X5.cnt
+Number of Tags in file:2837711
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3187_HG2C5BBXX_5_C8_ApeKIPinus_X5.cnt
+Number of Tags in file:3216097
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3211_HG2C5BBXX_5_B7_ApeKIPinus_X5.cnt
+Number of Tags in file:2466745
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3216_HG2C5BBXX_5_A1_ApeKIPinus_X5.cnt
+Number of Tags in file:2227480
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3221_HGGWTBBXX_6_C9_ApeKIPinus_X5.cnt
+Number of Tags in file:1653894
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3229_HGGWTBBXX_6_C8_ApeKIPinus_X5.cnt
+Number of Tags in file:3247018
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3242_HGGWTBBXX_6_A2_ApeKIPinus_X5.cnt
+Number of Tags in file:2913383
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3247_HGGWTBBXX_6_C5_ApeKIPinus_X5.cnt
+Number of Tags in file:2023784
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3255_HGGWTBBXX_6_A5_ApeKIPinus_X5.cnt
+Number of Tags in file:1831408
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3260_HG2C5BBXX_5_D1_ApeKIPinus_X5.cnt
+Number of Tags in file:1214215
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3267_HGGWTBBXX_6_C10_ApeKIPinus_X5.cnt
+Number of Tags in file:1854942
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3272_HG2C5BBXX_5_A7_ApeKIPinus_X5.cnt
+Number of Tags in file:2234814
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3275_HGGWTBBXX_6_D5_ApeKIPinus_X5.cnt
+Number of Tags in file:1723519
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3277_HGGWTBBXX_6_B9_ApeKIPinus_X5.cnt
+Number of Tags in file:1426737
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3282_HGGWTBBXX_6_C6_ApeKIPinus_X5.cnt
+Number of Tags in file:2170914
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3286_HGGWTBBXX_6_D1_ApeKIPinus_X5.cnt
+Number of Tags in file:1837649
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3289_HGGWTBBXX_6_A9_ApeKIPinus_X5.cnt
+Number of Tags in file:1731885
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3291_HG2C5BBXX_5_A3_ApeKIPinus_X5.cnt
+Number of Tags in file:2366710
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3293_HGGWTBBXX_6_D4_ApeKIPinus_X5.cnt
+Number of Tags in file:1455153
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3302_HGGWTBBXX_6_B11_ApeKIPinus_X5.cnt
+Number of Tags in file:2936154
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3303_HG2C5BBXX_5_A5_ApeKIPinus_X5.cnt
+Number of Tags in file:1324774
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3306_HGGWTBBXX_6_D2_ApeKIPinus_X5.cnt
+Number of Tags in file:1880306
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3310_HG2C5BBXX_5_C2_ApeKIPinus_X5.cnt
+Number of Tags in file:2068917
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3318_HG2C5BBXX_5_D5_ApeKIPinus_X5.cnt
+Number of Tags in file:1825025
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3325_HG2C5BBXX_5_B11_ApeKIPinus_X5.cnt
+Number of Tags in file:1812089
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3331_HG2C5BBXX_5_C1_ApeKIPinus_X5.cnt
+Number of Tags in file:1954777
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3335_HGGWTBBXX_6_B10_ApeKIPinus_X5.cnt
+Number of Tags in file:1887437
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3339_HGGWTBBXX_6_B8_ApeKIPinus_X5.cnt
+Number of Tags in file:2044163
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3352_HG2C5BBXX_5_C4_ApeKIPinus_X5.cnt
+Number of Tags in file:1493690
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3355_HG2C5BBXX_5_D3_ApeKIPinus_X5.cnt
+Number of Tags in file:1722002
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3356_HGGWTBBXX_6_B7_ApeKIPinus_X5.cnt
+Number of Tags in file:1403084
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3364_HG2C5BBXX_5_D2_ApeKIPinus_X5.cnt
+Number of Tags in file:2104666
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3365_HG2C5BBXX_5_D7_ApeKIPinus_X5.cnt
+Number of Tags in file:1737289
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3368_HG2C5BBXX_5_D6_ApeKIPinus_X5.cnt
+Number of Tags in file:2257201
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3369_HG2C5BBXX_5_C5_ApeKIPinus_X5.cnt
+Number of Tags in file:3171796
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3371_HG2C5BBXX_5_A12_ApeKIPinus_X5.cnt
+Number of Tags in file:2151936
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3373_HG2C5BBXX_5_B3_ApeKIPinus_X5.cnt
+Number of Tags in file:1745639
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3399_HG2C5BBXX_5_D4_ApeKIPinus_X5.cnt
+Number of Tags in file:2224962
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3407_HG2C5BBXX_5_A10_ApeKIPinus_X5.cnt
+Number of Tags in file:1952658
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3409_HG2C5BBXX_5_D8_ApeKIPinus_X5.cnt
+Number of Tags in file:1413466
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3411_HGGWTBBXX_6_D11_ApeKIPinus_X5.cnt
+Number of Tags in file:1894271
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3413_HG2C5BBXX_5_C3_ApeKIPinus_X5.cnt
+Number of Tags in file:1719945
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3424_HG2C5BBXX_5_D9_ApeKIPinus_X5.cnt
+Number of Tags in file:1665785
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3467_HGGWTBBXX_6_C4_ApeKIPinus_X5.cnt
+Number of Tags in file:1646244
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3468_HGGWTBBXX_6_C12_ApeKIPinus_X5.cnt
+Number of Tags in file:2111211
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3474_HGGWTBBXX_6_C3_ApeKIPinus_X5.cnt
+Number of Tags in file:1677378
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3508_HGGWTBBXX_6_C1_ApeKIPinus_X5.cnt
+Number of Tags in file:1688927
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3512_HGGWTBBXX_6_B12_ApeKIPinus_X5.cnt
+Number of Tags in file:1772262
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/3524_HGGWTBBXX_6_A10_ApeKIPinus_X5.cnt
+Number of Tags in file:1494001
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/4203_HGGWTBBXX_6_A11_ApeKIPinus_X5.cnt
+Number of Tags in file:2328159
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/4208_HG2C5BBXX_5_A2_ApeKIPinus_X5.cnt
+Number of Tags in file:2367154
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/4224_HG2C5BBXX_5_B8_ApeKIPinus_X5.cnt
+Number of Tags in file:2533729
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/4233_HG2C5BBXX_5_D10_ApeKIPinus_X5.cnt
+Number of Tags in file:1393130
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/water_HGGWTBBXX_6_D12_ApeKIPinus_X5.cnt
+Number of Tags in file:9425
+Reading Haplotypes distribution from:/qsb/mshu/UNEAK/tagCounts/water2_HG2C5BBXX_5_D12_ApeKIPinus_X5.cnt
+Number of Tags in file:1300
+8157768 tags will be output to tbt.bin
+Tags written to:/qsb/mshu/UNEAK/tagsByTaxa/tbt.bin
+Number of tags in file:8157768

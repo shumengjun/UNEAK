@@ -1,0 +1,43 @@
+/home/mshu/TASSEL_5/lib/sTASSEL.jar:/home/mshu/TASSEL_5/lib/jhdf5-14.12.5.jar:/home/mshu/TASSEL_5/lib/javax.json-1.0.4.jar:/home/mshu/TASSEL_5/lib/junit-4.10.jar:/home/mshu/TASSEL_5/lib/guava-22.0.jar:/home/mshu/TASSEL_5/lib/ejml-0.23.jar:/home/mshu/TASSEL_5/lib/ahocorasick-0.2.4.jar:/home/mshu/TASSEL_5/lib/forester-1.038.jar:/home/mshu/TASSEL_5/lib/jfreechart-1.0.19.jar:/home/mshu/TASSEL_5/lib/log4j-1.2.13.jar:/home/mshu/TASSEL_5/lib/colt-1.2.0.jar:/home/mshu/TASSEL_5/lib/biojava-alignment-4.0.0.jar:/home/mshu/TASSEL_5/lib/json-simple-1.1.1.jar:/home/mshu/TASSEL_5/lib/commons-math3-3.4.1.jar:/home/mshu/TASSEL_5/lib/snappy-java-1.1.1.6.jar:/home/mshu/TASSEL_5/lib/mail-1.4.jar:/home/mshu/TASSEL_5/lib/commons-codec-1.10.jar:/home/mshu/TASSEL_5/lib/biojava-phylo-4.0.0.jar:/home/mshu/TASSEL_5/lib/jfreesvg-3.2.jar:/home/mshu/TASSEL_5/lib/itextpdf-5.1.0.jar:/home/mshu/TASSEL_5/lib/slf4j-simple-1.7.10.jar:/home/mshu/TASSEL_5/lib/biojava-core-4.0.0.jar:/home/mshu/TASSEL_5/lib/postgresql-9.4-1201.jdbc41.jar:/home/mshu/TASSEL_5/lib/jcommon-1.0.23.jar:/home/mshu/TASSEL_5/lib/htsjdk-2.11.0.jar:/home/mshu/TASSEL_5/lib/sqlite-jdbc-3.8.5-pre1.jar:/home/mshu/TASSEL_5/lib/slf4j-api-1.7.10.jar:/home/mshu/TASSEL_5/lib/trove-3.0.3.jar:/home/mshu/TASSEL_5/sTASSEL.jar
+Memory Settings: -Xms10G -Xmx100G
+Tassel Pipeline Arguments: -fork1 -h /home/mshu/UNEAK/hapMap/denovo/UNEAK_denovo_96.hmp.txt -export -exportType VCF -runfork1
+[main] INFO net.maizegenetics.tassel.TasselLogging - Tassel Version: 5.2.39  Date: September 7, 2017
+[main] INFO net.maizegenetics.tassel.TasselLogging - Max Available Memory Reported by JVM: 91022 MB
+[main] INFO net.maizegenetics.tassel.TasselLogging - Java Version: 1.8.0_144
+[main] INFO net.maizegenetics.tassel.TasselLogging - OS: Linux
+[main] INFO net.maizegenetics.tassel.TasselLogging - Number of Processors: 20
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Pipeline Arguments: [-fork1, -h, /home/mshu/UNEAK/hapMap/denovo/UNEAK_denovo_96.hmp.txt, -export, -exportType, VCF, -runfork1]
+net.maizegenetics.analysis.data.FileLoadPlugin
+   net.maizegenetics.analysis.data.ExportMultiplePlugin
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Starting net.maizegenetics.analysis.data.FileLoadPlugin: time: Oct 9, 2018 9:45:55
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - 
+FileLoadPlugin Parameters
+format: Hapmap
+sortPositions: false
+
+[pool-1-thread-1] INFO net.maizegenetics.analysis.data.FileLoadPlugin - Start Loading File: /home/mshu/UNEAK/hapMap/denovo/UNEAK_denovo_96.hmp.txt time: Oct 9, 2018 9:45:55
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Oct 9, 2018 9:45:57: progress: 25%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Oct 9, 2018 9:45:57: progress: 50%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Oct 9, 2018 9:45:57: progress: 75%
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Oct 9, 2018 9:45:57: progress: 100%
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - net.maizegenetics.analysis.data.FileLoadPlugin  Citation: Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES. (2007) TASSEL: Software for association mapping of complex traits in diverse samples. Bioinformatics 23:2633-2635.
+[pool-1-thread-1] INFO net.maizegenetics.analysis.data.FileLoadPlugin - Finished Loading File: /home/mshu/UNEAK/hapMap/denovo/UNEAK_denovo_96.hmp.txt time: Oct 9, 2018 9:45:57
+Genotype Table Name: UNEAK_denovo_96
+Number of Taxa: 96
+Number of Sites: 196698
+Sites x Taxa: 18883008
+Chromosomes...
+0: start site: 0 (60) last site: 196697 (4078849) total: 196698
+
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Finished net.maizegenetics.analysis.data.FileLoadPlugin: time: Oct 9, 2018 9:45:57
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Starting net.maizegenetics.analysis.data.ExportPlugin: time: Oct 9, 2018 9:45:57
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - 
+ExportPlugin Parameters
+saveAs: UNEAK_denovo_96
+format: VCF
+keepDepth: true
+includeTaxaAnnotations: true
+
+[pool-1-thread-1] INFO net.maizegenetics.analysis.data.ExportPlugin - performFunction: wrote dataset: UNEAK_denovo_96 to file: UNEAK_denovo_96.vcf
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Finished net.maizegenetics.analysis.data.ExportPlugin: time: Oct 9, 2018 9:46:7
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.data.FileLoadPlugin: time: Oct 9, 2018 9:46:7: progress: 100%

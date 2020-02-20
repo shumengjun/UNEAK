@@ -1,0 +1,1868 @@
+/home/mshu/TASSEL_3/lib/LiuExt.jar:/home/mshu/TASSEL_3/lib/XmlSchema-1.3.1.jar:/home/mshu/TASSEL_3/lib/axiom-api-1.2.4.jar:/home/mshu/TASSEL_3/lib/axiom-impl-1.2.4.jar:/home/mshu/TASSEL_3/lib/axis2-kernel-1.2.jar:/home/mshu/TASSEL_3/lib/batik-awt-util.jar:/home/mshu/TASSEL_3/lib/batik-css.jar:/home/mshu/TASSEL_3/lib/batik-dom.jar:/home/mshu/TASSEL_3/lib/batik-ext.jar:/home/mshu/TASSEL_3/lib/batik-gui-util.jar:/home/mshu/TASSEL_3/lib/batik-gvt.jar:/home/mshu/TASSEL_3/lib/batik-parser.jar:/home/mshu/TASSEL_3/lib/batik-svg-dom.jar:/home/mshu/TASSEL_3/lib/batik-svggen.jar:/home/mshu/TASSEL_3/lib/batik-util.jar:/home/mshu/TASSEL_3/lib/batik-xml.jar:/home/mshu/TASSEL_3/lib/biojava3-alignment-3.0.jar:/home/mshu/TASSEL_3/lib/biojava3-core-3.0.jar:/home/mshu/TASSEL_3/lib/biojava3-phylo-3.0.jar:/home/mshu/TASSEL_3/lib/cisd-jhdf5-batteries_included_lin_win_mac.jar:/home/mshu/TASSEL_3/lib/colt.jar:/home/mshu/TASSEL_3/lib/commons-codec-1.3.jar:/home/mshu/TASSEL_3/lib/commons-collections-3.1.jar:/home/mshu/TASSEL_3/lib/commons-configuration-1.2.jar:/home/mshu/TASSEL_3/lib/commons-dbcp-1.2.1.jar:/home/mshu/TASSEL_3/lib/commons-discovery.jar:/home/mshu/TASSEL_3/lib/commons-httpclient-3.0.1.jar:/home/mshu/TASSEL_3/lib/commons-lang-2.1.jar:/home/mshu/TASSEL_3/lib/commons-logging-1.1.jar:/home/mshu/TASSEL_3/lib/commons-math-2.2.jar:/home/mshu/TASSEL_3/lib/commons-pool-1.3.jar:/home/mshu/TASSEL_3/lib/crimson-parser.jar:/home/mshu/TASSEL_3/lib/ejml-0.13.jar:/home/mshu/TASSEL_3/lib/forester.jar:/home/mshu/TASSEL_3/lib/gdpc.jar:/home/mshu/TASSEL_3/lib/geronimo-spec-activation-1.0.2-rc4.jar:/home/mshu/TASSEL_3/lib/jcommon-1.0.6.jar:/home/mshu/TASSEL_3/lib/jfreechart-1.0.3.jar:/home/mshu/TASSEL_3/lib/jgrapht-0.5.3.jar:/home/mshu/TASSEL_3/lib/jung-1.7.5.jar:/home/mshu/TASSEL_3/lib/junit-4.1.jar:/home/mshu/TASSEL_3/lib/log4j-1.2.13.jar:/home/mshu/TASSEL_3/lib/lzma-4.63-jio-0.93.jar:/home/mshu/TASSEL_3/lib/mail-1.4.jar:/home/mshu/TASSEL_3/lib/mysql-connector-java-3.1.13-bin.jar:/home/mshu/TASSEL_3/lib/poi-3.0.1-FINAL-20070705.jar:/home/mshu/TASSEL_3/lib/ssj.jar:/home/mshu/TASSEL_3/lib/wsdl4j-1.6.2.jar:/home/mshu/TASSEL_3/lib/xercesImpl.jar:/home/mshu/TASSEL_3/lib/xml.jar:/home/mshu/TASSEL_3/lib/xmlParserAPIs.jar:/home/mshu/TASSEL_3/sTASSEL.jar
+Memory Settings: -Xms10G -Xmx100G
+Tassel Pipeline Arguments: -fork1 -UFastqToTagCountPlugin -w /home/mshu/UNEAK/ -s 600000000 -e ApeKI -endPlugin -runfork1
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Version: 3.0.174  Date: March 3, 2016
+/home/mshu/UNEAK/key/UNEAK_96_key.txt
+net.maizegenetics.gbs.pipeline.UFastqToTagCountPlugin
+Using the following FASTQ files:
+/home/mshu/UNEAK/Illumina/HG2C5BBXX_5_fastq.gz
+/home/mshu/UNEAK/Illumina/HGGWTBBXX_6_fastq.gz
+Reading FASTQ file: /home/mshu/UNEAK/Illumina/HG2C5BBXX_5_fastq.gz
+Enzyme: ApeKI
+AGGC 3216:HG2C5BBXX:5:A1:ApeKIPinus
+AGCATT 4208:HG2C5BBXX:5:A2:ApeKIPinus
+AATCGTT 3291:HG2C5BBXX:5:A3:ApeKIPinus
+TCAAGTT 3027:HG2C5BBXX:5:A4:ApeKIPinus
+ACGTGTA 3303:HG2C5BBXX:5:A5:ApeKIPinus
+CAAGAAGT 3040:HG2C5BBXX:5:A6:ApeKIPinus
+AACGTAGA 3272:HG2C5BBXX:5:A7:ApeKIPinus
+AGCTTGGT 3048:HG2C5BBXX:5:A8:ApeKIPinus
+GATT 3046:HG2C5BBXX:5:A9:ApeKIPinus
+CTCCGA 3407:HG2C5BBXX:5:A10:ApeKIPinus
+CTATGGA 3037:HG2C5BBXX:5:A11:ApeKIPinus
+GATCATA 3371:HG2C5BBXX:5:A12:ApeKIPinus
+GATGCAT 3061:HG2C5BBXX:5:B1:ApeKIPinus
+GTCATGGT 3063:HG2C5BBXX:5:B2:ApeKIPinus
+CTCACGGA 3373:HG2C5BBXX:5:B3:ApeKIPinus
+ACAGATGA 18207:HG2C5BBXX:5:B4:ApeKIPinus
+ACCGT 3041:HG2C5BBXX:5:B5:ApeKIPinus
+TTGGCA 3138:HG2C5BBXX:5:B6:ApeKIPinus
+TACGGTA 3211:HG2C5BBXX:5:B7:ApeKIPinus
+GCATTGA 4224:HG2C5BBXX:5:B8:ApeKIPinus
+CTAATGT 3166:HG2C5BBXX:5:B9:ApeKIPinus
+AACAGTGA 3088:HG2C5BBXX:5:B10:ApeKIPinus
+TAGCGTGT 3325:HG2C5BBXX:5:B11:ApeKIPinus
+CAGTTGGT 3121:HG2C5BBXX:5:B12:ApeKIPinus
+CGTCA 3331:HG2C5BBXX:5:C1:ApeKIPinus
+CCACGT 3310:HG2C5BBXX:5:C2:ApeKIPinus
+ACTATGT 3413:HG2C5BBXX:5:C3:ApeKIPinus
+CAGGTAT 3352:HG2C5BBXX:5:C4:ApeKIPinus
+GTCGATA 3369:HG2C5BBXX:5:C5:ApeKIPinus
+GTGCAAGA 18830:HG2C5BBXX:5:C6:ApeKIPinus
+ACGTAAGA 3129:HG2C5BBXX:5:C7:ApeKIPinus
+TGCAAGAA 3187:HG2C5BBXX:5:C8:ApeKIPinus
+TCGCA 3010:HG2C5BBXX:5:C9:ApeKIPinus
+GATGTC 3068:HG2C5BBXX:5:C10:ApeKIPinus
+CGTGAAT 3152:HG2C5BBXX:5:C11:ApeKIPinus
+TGCAATA 3165:HG2C5BBXX:5:C12:ApeKIPinus
+TATACGT 3260:HG2C5BBXX:5:D1:ApeKIPinus
+CAATAGGA 3364:HG2C5BBXX:5:D2:ApeKIPinus
+CGTATGGT 3355:HG2C5BBXX:5:D3:ApeKIPinus
+ACTCGAGA 3399:HG2C5BBXX:5:D4:ApeKIPinus
+CGCAT 3318:HG2C5BBXX:5:D5:ApeKIPinus
+TGTTAC 3368:HG2C5BBXX:5:D6:ApeKIPinus
+TTGCAGA 3365:HG2C5BBXX:5:D7:ApeKIPinus
+ATATCGT 3409:HG2C5BBXX:5:D8:ApeKIPinus
+GCGTAAT 3424:HG2C5BBXX:5:D9:ApeKIPinus
+TGCAGTGT 4233:HG2C5BBXX:5:D10:ApeKIPinus
+GTACGTGT 18051:HG2C5BBXX:5:D11:ApeKIPinus
+GGAGCTGT water2:HG2C5BBXX:5:D12:ApeKIPinus
+Total barcodes found in lane:48
+Total barcodes found in lane:48
+Total Reads:1000000 Reads with barcode and cut site overhang:971668
+Total Reads:2000000 Reads with barcode and cut site overhang:1944336
+Total Reads:3000000 Reads with barcode and cut site overhang:2916986
+Total Reads:4000000 Reads with barcode and cut site overhang:3887980
+Total Reads:5000000 Reads with barcode and cut site overhang:4860270
+Total Reads:6000000 Reads with barcode and cut site overhang:5832852
+Total Reads:7000000 Reads with barcode and cut site overhang:6803295
+Total Reads:8000000 Reads with barcode and cut site overhang:7776641
+Total Reads:9000000 Reads with barcode and cut site overhang:8749190
+Total Reads:10000000 Reads with barcode and cut site overhang:9722039
+Total Reads:11000000 Reads with barcode and cut site overhang:10693331
+Total Reads:12000000 Reads with barcode and cut site overhang:11665986
+Total Reads:13000000 Reads with barcode and cut site overhang:12638776
+Total Reads:14000000 Reads with barcode and cut site overhang:13609306
+Total Reads:15000000 Reads with barcode and cut site overhang:14581993
+Total Reads:16000000 Reads with barcode and cut site overhang:15555261
+Total Reads:17000000 Reads with barcode and cut site overhang:16527829
+Total Reads:18000000 Reads with barcode and cut site overhang:17498644
+Total Reads:19000000 Reads with barcode and cut site overhang:18471452
+Total Reads:20000000 Reads with barcode and cut site overhang:19444342
+Total Reads:21000000 Reads with barcode and cut site overhang:20415526
+Total Reads:22000000 Reads with barcode and cut site overhang:21387889
+Total Reads:23000000 Reads with barcode and cut site overhang:22360873
+Total Reads:24000000 Reads with barcode and cut site overhang:23333692
+Total Reads:25000000 Reads with barcode and cut site overhang:24304011
+Total Reads:26000000 Reads with barcode and cut site overhang:25277007
+Total Reads:27000000 Reads with barcode and cut site overhang:26249884
+Total Reads:28000000 Reads with barcode and cut site overhang:27219343
+Total Reads:29000000 Reads with barcode and cut site overhang:28191527
+Total Reads:30000000 Reads with barcode and cut site overhang:29163680
+Total Reads:31000000 Reads with barcode and cut site overhang:30136216
+Total Reads:32000000 Reads with barcode and cut site overhang:31105876
+Total Reads:33000000 Reads with barcode and cut site overhang:32078408
+Total Reads:34000000 Reads with barcode and cut site overhang:33051303
+Total Reads:35000000 Reads with barcode and cut site overhang:34020251
+Total Reads:36000000 Reads with barcode and cut site overhang:34992687
+Total Reads:37000000 Reads with barcode and cut site overhang:35964854
+Total Reads:38000000 Reads with barcode and cut site overhang:36936914
+Total Reads:39000000 Reads with barcode and cut site overhang:37905885
+Total Reads:40000000 Reads with barcode and cut site overhang:38877649
+Total Reads:41000000 Reads with barcode and cut site overhang:39849748
+Total Reads:42000000 Reads with barcode and cut site overhang:40818202
+Total Reads:43000000 Reads with barcode and cut site overhang:41789722
+Total Reads:44000000 Reads with barcode and cut site overhang:42760983
+Total Reads:45000000 Reads with barcode and cut site overhang:43731903
+Total Reads:46000000 Reads with barcode and cut site overhang:44700435
+Total Reads:47000000 Reads with barcode and cut site overhang:45671274
+Total Reads:48000000 Reads with barcode and cut site overhang:46642081
+Total Reads:49000000 Reads with barcode and cut site overhang:47610320
+Total Reads:50000000 Reads with barcode and cut site overhang:48581338
+Total Reads:51000000 Reads with barcode and cut site overhang:49552816
+Total Reads:52000000 Reads with barcode and cut site overhang:50523867
+Total Reads:53000000 Reads with barcode and cut site overhang:51491035
+Total Reads:54000000 Reads with barcode and cut site overhang:52462297
+Total Reads:55000000 Reads with barcode and cut site overhang:53432750
+Total Reads:56000000 Reads with barcode and cut site overhang:54400851
+Total Reads:57000000 Reads with barcode and cut site overhang:55371053
+Total Reads:58000000 Reads with barcode and cut site overhang:56341620
+Total Reads:59000000 Reads with barcode and cut site overhang:57311955
+Total Reads:60000000 Reads with barcode and cut site overhang:58280521
+Total Reads:61000000 Reads with barcode and cut site overhang:59251667
+Total Reads:62000000 Reads with barcode and cut site overhang:60222940
+Total Reads:63000000 Reads with barcode and cut site overhang:61191142
+Total Reads:64000000 Reads with barcode and cut site overhang:62162582
+Total Reads:65000000 Reads with barcode and cut site overhang:63133882
+Total Reads:66000000 Reads with barcode and cut site overhang:64105072
+Total Reads:67000000 Reads with barcode and cut site overhang:65072342
+Total Reads:68000000 Reads with barcode and cut site overhang:66043627
+Total Reads:69000000 Reads with barcode and cut site overhang:67014617
+Total Reads:70000000 Reads with barcode and cut site overhang:67982786
+Total Reads:71000000 Reads with barcode and cut site overhang:68954285
+Total Reads:72000000 Reads with barcode and cut site overhang:69925436
+Total Reads:73000000 Reads with barcode and cut site overhang:70896919
+Total Reads:74000000 Reads with barcode and cut site overhang:71865528
+Total Reads:75000000 Reads with barcode and cut site overhang:72836871
+Total Reads:76000000 Reads with barcode and cut site overhang:73808675
+Total Reads:77000000 Reads with barcode and cut site overhang:74777134
+Total Reads:78000000 Reads with barcode and cut site overhang:75748478
+Total Reads:79000000 Reads with barcode and cut site overhang:76719972
+Total Reads:80000000 Reads with barcode and cut site overhang:77691371
+Total Reads:81000000 Reads with barcode and cut site overhang:78659493
+Total Reads:82000000 Reads with barcode and cut site overhang:79630772
+Total Reads:83000000 Reads with barcode and cut site overhang:80602566
+Total Reads:84000000 Reads with barcode and cut site overhang:81570380
+Total Reads:85000000 Reads with barcode and cut site overhang:82542197
+Total Reads:86000000 Reads with barcode and cut site overhang:83513581
+Total Reads:87000000 Reads with barcode and cut site overhang:84481699
+Total Reads:88000000 Reads with barcode and cut site overhang:85452955
+Total Reads:89000000 Reads with barcode and cut site overhang:86424214
+Total Reads:90000000 Reads with barcode and cut site overhang:87396181
+Total Reads:91000000 Reads with barcode and cut site overhang:88365260
+Total Reads:92000000 Reads with barcode and cut site overhang:89336449
+Total Reads:93000000 Reads with barcode and cut site overhang:90307285
+Total Reads:94000000 Reads with barcode and cut site overhang:91276568
+Total Reads:95000000 Reads with barcode and cut site overhang:92248556
+Total Reads:96000000 Reads with barcode and cut site overhang:93220339
+Total Reads:97000000 Reads with barcode and cut site overhang:94192138
+Total Reads:98000000 Reads with barcode and cut site overhang:95157341
+Total Reads:99000000 Reads with barcode and cut site overhang:96127545
+Total Reads:100000000 Reads with barcode and cut site overhang:97098043
+Total Reads:101000000 Reads with barcode and cut site overhang:98067581
+Total Reads:102000000 Reads with barcode and cut site overhang:99037466
+Total Reads:103000000 Reads with barcode and cut site overhang:100007277
+Total Reads:104000000 Reads with barcode and cut site overhang:100976995
+Total Reads:105000000 Reads with barcode and cut site overhang:101946147
+Total Reads:106000000 Reads with barcode and cut site overhang:102914972
+Total Reads:107000000 Reads with barcode and cut site overhang:103885031
+Total Reads:108000000 Reads with barcode and cut site overhang:104853715
+Total Reads:109000000 Reads with barcode and cut site overhang:105822976
+Total Reads:110000000 Reads with barcode and cut site overhang:106792315
+Total Reads:111000000 Reads with barcode and cut site overhang:107761232
+Total Reads:112000000 Reads with barcode and cut site overhang:108728987
+Total Reads:113000000 Reads with barcode and cut site overhang:109697654
+Total Reads:114000000 Reads with barcode and cut site overhang:110665879
+Total Reads:115000000 Reads with barcode and cut site overhang:111633043
+Total Reads:116000000 Reads with barcode and cut site overhang:112601202
+Total Reads:117000000 Reads with barcode and cut site overhang:113569119
+Total Reads:118000000 Reads with barcode and cut site overhang:114536458
+Total Reads:119000000 Reads with barcode and cut site overhang:115503289
+Total Reads:120000000 Reads with barcode and cut site overhang:116470338
+Total Reads:121000000 Reads with barcode and cut site overhang:117437845
+Total Reads:122000000 Reads with barcode and cut site overhang:118403179
+Total Reads:123000000 Reads with barcode and cut site overhang:119369978
+Total Reads:124000000 Reads with barcode and cut site overhang:120336968
+Total Reads:125000000 Reads with barcode and cut site overhang:121302835
+Total Reads:126000000 Reads with barcode and cut site overhang:122266579
+Total Reads:127000000 Reads with barcode and cut site overhang:123232830
+Total Reads:128000000 Reads with barcode and cut site overhang:124198940
+Total Reads:129000000 Reads with barcode and cut site overhang:125161625
+Total Reads:130000000 Reads with barcode and cut site overhang:126127241
+Total Reads:131000000 Reads with barcode and cut site overhang:127093013
+Total Reads:132000000 Reads with barcode and cut site overhang:128058815
+Total Reads:133000000 Reads with barcode and cut site overhang:129021664
+Total Reads:134000000 Reads with barcode and cut site overhang:129986501
+Total Reads:135000000 Reads with barcode and cut site overhang:130950611
+Total Reads:136000000 Reads with barcode and cut site overhang:131912144
+Total Reads:137000000 Reads with barcode and cut site overhang:132876192
+Total Reads:138000000 Reads with barcode and cut site overhang:133840647
+Total Reads:139000000 Reads with barcode and cut site overhang:134804750
+Total Reads:140000000 Reads with barcode and cut site overhang:135766666
+Total Reads:141000000 Reads with barcode and cut site overhang:136730848
+Total Reads:142000000 Reads with barcode and cut site overhang:137695194
+Total Reads:143000000 Reads with barcode and cut site overhang:138657420
+Total Reads:144000000 Reads with barcode and cut site overhang:139621192
+Total Reads:145000000 Reads with barcode and cut site overhang:140585444
+Total Reads:146000000 Reads with barcode and cut site overhang:141549752
+Total Reads:147000000 Reads with barcode and cut site overhang:142513081
+Total Reads:148000000 Reads with barcode and cut site overhang:143478053
+Total Reads:149000000 Reads with barcode and cut site overhang:144442992
+Total Reads:150000000 Reads with barcode and cut site overhang:145406078
+Total Reads:151000000 Reads with barcode and cut site overhang:146370351
+Total Reads:152000000 Reads with barcode and cut site overhang:147334927
+Total Reads:153000000 Reads with barcode and cut site overhang:148299625
+Total Reads:154000000 Reads with barcode and cut site overhang:149261918
+Total Reads:155000000 Reads with barcode and cut site overhang:150226703
+Total Reads:156000000 Reads with barcode and cut site overhang:151190958
+Total Reads:157000000 Reads with barcode and cut site overhang:152153184
+Total Reads:158000000 Reads with barcode and cut site overhang:153117631
+Total Reads:159000000 Reads with barcode and cut site overhang:154082495
+Total Reads:160000000 Reads with barcode and cut site overhang:155045322
+Total Reads:161000000 Reads with barcode and cut site overhang:156009574
+Total Reads:162000000 Reads with barcode and cut site overhang:156973658
+Total Reads:163000000 Reads with barcode and cut site overhang:157937574
+Total Reads:164000000 Reads with barcode and cut site overhang:158899550
+Total Reads:165000000 Reads with barcode and cut site overhang:159863771
+Total Reads:166000000 Reads with barcode and cut site overhang:160828239
+Total Reads:167000000 Reads with barcode and cut site overhang:161790433
+Total Reads:168000000 Reads with barcode and cut site overhang:162754857
+Total Reads:169000000 Reads with barcode and cut site overhang:163719745
+Total Reads:170000000 Reads with barcode and cut site overhang:164684686
+Total Reads:171000000 Reads with barcode and cut site overhang:165646858
+Total Reads:172000000 Reads with barcode and cut site overhang:166611584
+Total Reads:173000000 Reads with barcode and cut site overhang:167576391
+Total Reads:174000000 Reads with barcode and cut site overhang:168539505
+Total Reads:175000000 Reads with barcode and cut site overhang:169504626
+Total Reads:176000000 Reads with barcode and cut site overhang:170469320
+Total Reads:177000000 Reads with barcode and cut site overhang:171433883
+Total Reads:178000000 Reads with barcode and cut site overhang:172396689
+Total Reads:179000000 Reads with barcode and cut site overhang:173360652
+Total Reads:180000000 Reads with barcode and cut site overhang:174325427
+Total Reads:181000000 Reads with barcode and cut site overhang:175288476
+Total Reads:182000000 Reads with barcode and cut site overhang:176253138
+Total Reads:183000000 Reads with barcode and cut site overhang:177218144
+Total Reads:184000000 Reads with barcode and cut site overhang:178182719
+Total Reads:185000000 Reads with barcode and cut site overhang:179145514
+Total Reads:186000000 Reads with barcode and cut site overhang:180110344
+Total Reads:187000000 Reads with barcode and cut site overhang:181074706
+Total Reads:188000000 Reads with barcode and cut site overhang:182037877
+Total Reads:189000000 Reads with barcode and cut site overhang:183002490
+Total Reads:190000000 Reads with barcode and cut site overhang:183967499
+Total Reads:191000000 Reads with barcode and cut site overhang:184931351
+Total Reads:192000000 Reads with barcode and cut site overhang:185896546
+Total Reads:193000000 Reads with barcode and cut site overhang:186861227
+Total Reads:194000000 Reads with barcode and cut site overhang:187825853
+Total Reads:195000000 Reads with barcode and cut site overhang:188791599
+Total Reads:196000000 Reads with barcode and cut site overhang:189762222
+Total Reads:197000000 Reads with barcode and cut site overhang:190732704
+Total Reads:198000000 Reads with barcode and cut site overhang:191702075
+Total Reads:199000000 Reads with barcode and cut site overhang:192672082
+Total Reads:200000000 Reads with barcode and cut site overhang:193642452
+Total Reads:201000000 Reads with barcode and cut site overhang:194613485
+Total Reads:202000000 Reads with barcode and cut site overhang:195581599
+Total Reads:203000000 Reads with barcode and cut site overhang:196552047
+Total Reads:204000000 Reads with barcode and cut site overhang:197522932
+Total Reads:205000000 Reads with barcode and cut site overhang:198491840
+Total Reads:206000000 Reads with barcode and cut site overhang:199461722
+Total Reads:207000000 Reads with barcode and cut site overhang:200432231
+Total Reads:208000000 Reads with barcode and cut site overhang:201402411
+Total Reads:209000000 Reads with barcode and cut site overhang:202371529
+Total Reads:210000000 Reads with barcode and cut site overhang:203341536
+Total Reads:211000000 Reads with barcode and cut site overhang:204311866
+Total Reads:212000000 Reads with barcode and cut site overhang:205280252
+Total Reads:213000000 Reads with barcode and cut site overhang:206250633
+Total Reads:214000000 Reads with barcode and cut site overhang:207221216
+Total Reads:215000000 Reads with barcode and cut site overhang:208191506
+Total Reads:216000000 Reads with barcode and cut site overhang:209160141
+Total Reads:217000000 Reads with barcode and cut site overhang:210130398
+Total Reads:218000000 Reads with barcode and cut site overhang:211100507
+Total Reads:219000000 Reads with barcode and cut site overhang:212068846
+Total Reads:220000000 Reads with barcode and cut site overhang:213039020
+Total Reads:221000000 Reads with barcode and cut site overhang:214009230
+Total Reads:222000000 Reads with barcode and cut site overhang:214979202
+Total Reads:223000000 Reads with barcode and cut site overhang:215947606
+Total Reads:224000000 Reads with barcode and cut site overhang:216918074
+Total Reads:225000000 Reads with barcode and cut site overhang:217887879
+Total Reads:226000000 Reads with barcode and cut site overhang:218852561
+Total Reads:227000000 Reads with barcode and cut site overhang:219822903
+Total Reads:228000000 Reads with barcode and cut site overhang:220793256
+Total Reads:229000000 Reads with barcode and cut site overhang:221763689
+Total Reads:230000000 Reads with barcode and cut site overhang:222731581
+Total Reads:231000000 Reads with barcode and cut site overhang:223701618
+Total Reads:232000000 Reads with barcode and cut site overhang:224671431
+Total Reads:233000000 Reads with barcode and cut site overhang:225639067
+Total Reads:234000000 Reads with barcode and cut site overhang:226608789
+Total Reads:235000000 Reads with barcode and cut site overhang:227578771
+Total Reads:236000000 Reads with barcode and cut site overhang:228546339
+Total Reads:237000000 Reads with barcode and cut site overhang:229514770
+Total Reads:238000000 Reads with barcode and cut site overhang:230485566
+Total Reads:239000000 Reads with barcode and cut site overhang:231455696
+Total Reads:240000000 Reads with barcode and cut site overhang:232422934
+Total Reads:241000000 Reads with barcode and cut site overhang:233393435
+Total Reads:242000000 Reads with barcode and cut site overhang:234364370
+Total Reads:243000000 Reads with barcode and cut site overhang:235331626
+Total Reads:244000000 Reads with barcode and cut site overhang:236301606
+Total Reads:245000000 Reads with barcode and cut site overhang:237271789
+Total Reads:246000000 Reads with barcode and cut site overhang:238241548
+Total Reads:247000000 Reads with barcode and cut site overhang:239207777
+Total Reads:248000000 Reads with barcode and cut site overhang:240178148
+Total Reads:249000000 Reads with barcode and cut site overhang:241147615
+Total Reads:250000000 Reads with barcode and cut site overhang:242113302
+Total Reads:251000000 Reads with barcode and cut site overhang:243084193
+Total Reads:252000000 Reads with barcode and cut site overhang:244055106
+Total Reads:253000000 Reads with barcode and cut site overhang:245025271
+Total Reads:254000000 Reads with barcode and cut site overhang:245992762
+Total Reads:255000000 Reads with barcode and cut site overhang:246963602
+Total Reads:256000000 Reads with barcode and cut site overhang:247934454
+Total Reads:257000000 Reads with barcode and cut site overhang:248901257
+Total Reads:258000000 Reads with barcode and cut site overhang:249871445
+Total Reads:259000000 Reads with barcode and cut site overhang:250841821
+Total Reads:260000000 Reads with barcode and cut site overhang:251812322
+Total Reads:261000000 Reads with barcode and cut site overhang:252777826
+Total Reads:262000000 Reads with barcode and cut site overhang:253747632
+Total Reads:263000000 Reads with barcode and cut site overhang:254717598
+Total Reads:264000000 Reads with barcode and cut site overhang:255684890
+Total Reads:265000000 Reads with barcode and cut site overhang:256655956
+Total Reads:266000000 Reads with barcode and cut site overhang:257626771
+Total Reads:267000000 Reads with barcode and cut site overhang:258597194
+Total Reads:268000000 Reads with barcode and cut site overhang:259563827
+Total Reads:269000000 Reads with barcode and cut site overhang:260534156
+Total Reads:270000000 Reads with barcode and cut site overhang:261505055
+Total Reads:271000000 Reads with barcode and cut site overhang:262472438
+Total Reads:272000000 Reads with barcode and cut site overhang:263443721
+Total Reads:273000000 Reads with barcode and cut site overhang:264415121
+Total Reads:274000000 Reads with barcode and cut site overhang:265386457
+Total Reads:275000000 Reads with barcode and cut site overhang:266354313
+Total Reads:276000000 Reads with barcode and cut site overhang:267325627
+Total Reads:277000000 Reads with barcode and cut site overhang:268296475
+Total Reads:278000000 Reads with barcode and cut site overhang:269263929
+Total Reads:279000000 Reads with barcode and cut site overhang:270234773
+Total Reads:280000000 Reads with barcode and cut site overhang:271205996
+Total Reads:281000000 Reads with barcode and cut site overhang:272176895
+Total Reads:282000000 Reads with barcode and cut site overhang:273145353
+Total Reads:283000000 Reads with barcode and cut site overhang:274116650
+Total Reads:284000000 Reads with barcode and cut site overhang:275087556
+Total Reads:285000000 Reads with barcode and cut site overhang:276056267
+Total Reads:286000000 Reads with barcode and cut site overhang:277026974
+Total Reads:287000000 Reads with barcode and cut site overhang:277997187
+Total Reads:288000000 Reads with barcode and cut site overhang:278967148
+Total Reads:289000000 Reads with barcode and cut site overhang:279934616
+Total Reads:290000000 Reads with barcode and cut site overhang:280905299
+Total Reads:291000000 Reads with barcode and cut site overhang:281875897
+Total Reads:292000000 Reads with barcode and cut site overhang:282841339
+Total Reads:293000000 Reads with barcode and cut site overhang:283815228
+Total Reads:294000000 Reads with barcode and cut site overhang:284788877
+Total Reads:295000000 Reads with barcode and cut site overhang:285758425
+Total Reads:296000000 Reads with barcode and cut site overhang:286731734
+Total Reads:297000000 Reads with barcode and cut site overhang:287705852
+Total Reads:298000000 Reads with barcode and cut site overhang:288668881
+Total Reads:299000000 Reads with barcode and cut site overhang:289605614
+Total Reads:300000000 Reads with barcode and cut site overhang:290579330
+Total Reads:301000000 Reads with barcode and cut site overhang:291552731
+Total Reads:302000000 Reads with barcode and cut site overhang:292493781
+Total Reads:303000000 Reads with barcode and cut site overhang:293191696
+Total Reads:304000000 Reads with barcode and cut site overhang:293661126
+Total Reads:305000000 Reads with barcode and cut site overhang:294269799
+Total Reads:306000000 Reads with barcode and cut site overhang:294855064
+Total Reads:307000000 Reads with barcode and cut site overhang:295826371
+Total Reads:308000000 Reads with barcode and cut site overhang:296800358
+Total Reads:309000000 Reads with barcode and cut site overhang:297770206
+Total Reads:310000000 Reads with barcode and cut site overhang:298743684
+Total Reads:311000000 Reads with barcode and cut site overhang:299717619
+Total Reads:312000000 Reads with barcode and cut site overhang:300691310
+Total Reads:313000000 Reads with barcode and cut site overhang:301661208
+Total Reads:314000000 Reads with barcode and cut site overhang:302635293
+Total Reads:315000000 Reads with barcode and cut site overhang:303608939
+Total Reads:316000000 Reads with barcode and cut site overhang:304578581
+Total Reads:317000000 Reads with barcode and cut site overhang:305552608
+Total Reads:318000000 Reads with barcode and cut site overhang:306525995
+Total Reads:319000000 Reads with barcode and cut site overhang:307495916
+Total Reads:320000000 Reads with barcode and cut site overhang:308468994
+Total Reads:321000000 Reads with barcode and cut site overhang:309442529
+Total Reads:322000000 Reads with barcode and cut site overhang:310416069
+Total Reads:323000000 Reads with barcode and cut site overhang:311385156
+Total Reads:324000000 Reads with barcode and cut site overhang:312358527
+Total Reads:325000000 Reads with barcode and cut site overhang:313330906
+Total Reads:326000000 Reads with barcode and cut site overhang:314299072
+Total Reads:327000000 Reads with barcode and cut site overhang:315272551
+Total Reads:328000000 Reads with barcode and cut site overhang:316245840
+Total Reads:329000000 Reads with barcode and cut site overhang:317218668
+Total Reads:330000000 Reads with barcode and cut site overhang:318187625
+Total Reads:331000000 Reads with barcode and cut site overhang:319160694
+Total Reads:332000000 Reads with barcode and cut site overhang:320134031
+Total Reads:333000000 Reads with barcode and cut site overhang:321102365
+Total Reads:334000000 Reads with barcode and cut site overhang:322075442
+Total Reads:335000000 Reads with barcode and cut site overhang:323048434
+Total Reads:336000000 Reads with barcode and cut site overhang:324021129
+Total Reads:337000000 Reads with barcode and cut site overhang:324988815
+Total Reads:338000000 Reads with barcode and cut site overhang:325961077
+Total Reads:339000000 Reads with barcode and cut site overhang:326934314
+Total Reads:340000000 Reads with barcode and cut site overhang:327903098
+Total Reads:341000000 Reads with barcode and cut site overhang:328875349
+Total Reads:342000000 Reads with barcode and cut site overhang:329848713
+Total Reads:343000000 Reads with barcode and cut site overhang:330821831
+Total Reads:344000000 Reads with barcode and cut site overhang:331789163
+Total Reads:345000000 Reads with barcode and cut site overhang:332761670
+Total Reads:346000000 Reads with barcode and cut site overhang:333732612
+Total Reads:347000000 Reads with barcode and cut site overhang:334699815
+Total Reads:348000000 Reads with barcode and cut site overhang:335673232
+Total Reads:349000000 Reads with barcode and cut site overhang:336646333
+Total Reads:350000000 Reads with barcode and cut site overhang:337619294
+Total Reads:351000000 Reads with barcode and cut site overhang:338588397
+Total Reads:352000000 Reads with barcode and cut site overhang:339562034
+Total Reads:353000000 Reads with barcode and cut site overhang:340535364
+Total Reads:354000000 Reads with barcode and cut site overhang:341504232
+Total Reads:355000000 Reads with barcode and cut site overhang:342477948
+Total Reads:356000000 Reads with barcode and cut site overhang:343451335
+Total Reads:357000000 Reads with barcode and cut site overhang:344424544
+Total Reads:358000000 Reads with barcode and cut site overhang:345393410
+Total Reads:359000000 Reads with barcode and cut site overhang:346366816
+Total Reads:360000000 Reads with barcode and cut site overhang:347339939
+Total Reads:361000000 Reads with barcode and cut site overhang:348309010
+Total Reads:362000000 Reads with barcode and cut site overhang:349281982
+Total Reads:363000000 Reads with barcode and cut site overhang:350255257
+Total Reads:364000000 Reads with barcode and cut site overhang:351224992
+Total Reads:365000000 Reads with barcode and cut site overhang:352197923
+Total Reads:366000000 Reads with barcode and cut site overhang:353171264
+Total Reads:367000000 Reads with barcode and cut site overhang:354144344
+Total Reads:368000000 Reads with barcode and cut site overhang:355114227
+Total Reads:369000000 Reads with barcode and cut site overhang:356087833
+Total Reads:370000000 Reads with barcode and cut site overhang:357061100
+Total Reads:371000000 Reads with barcode and cut site overhang:358030667
+Total Reads:372000000 Reads with barcode and cut site overhang:359003365
+Total Reads:373000000 Reads with barcode and cut site overhang:359974877
+Total Reads:374000000 Reads with barcode and cut site overhang:360948054
+Total Reads:375000000 Reads with barcode and cut site overhang:361918264
+Total Reads:376000000 Reads with barcode and cut site overhang:362891908
+Total Reads:377000000 Reads with barcode and cut site overhang:363823447
+Total Reads:378000000 Reads with barcode and cut site overhang:364626590
+Total Reads:379000000 Reads with barcode and cut site overhang:365600053
+Total Reads:380000000 Reads with barcode and cut site overhang:366554391
+Total Reads:381000000 Reads with barcode and cut site overhang:367525858
+Total Reads:382000000 Reads with barcode and cut site overhang:368499370
+Total Reads:383000000 Reads with barcode and cut site overhang:369472749
+Total Reads:384000000 Reads with barcode and cut site overhang:370445825
+Total Reads:385000000 Reads with barcode and cut site overhang:371417340
+Total Reads:386000000 Reads with barcode and cut site overhang:372390180
+Total Reads:387000000 Reads with barcode and cut site overhang:373362945
+Total number of reads in lane=387697618
+Total number of good barcoded reads=374039157
+Timing process (sorting, collapsing, and writing TagCount to file).
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4688865
+Unique tags retained:1861202
+1861202 tags will be output to /home/mshu/UNEAK/tagCounts/18051_HG2C5BBXX_5_D11_ApeKIPinus_X5.cnt
+These 1861202 tags were covered by 6550067 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/18051_HG2C5BBXX_5_D11_ApeKIPinus_X5.cnt
+Number of Tags in file:1861202
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4277334
+Unique tags retained:1678135
+1678135 tags will be output to /home/mshu/UNEAK/tagCounts/18207_HG2C5BBXX_5_B4_ApeKIPinus_X5.cnt
+These 1678135 tags were covered by 5955469 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/18207_HG2C5BBXX_5_B4_ApeKIPinus_X5.cnt
+Number of Tags in file:1678135
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:6565165
+Unique tags retained:2416067
+2416067 tags will be output to /home/mshu/UNEAK/tagCounts/18830_HG2C5BBXX_5_C6_ApeKIPinus_X5.cnt
+These 2416067 tags were covered by 8981232 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/18830_HG2C5BBXX_5_C6_ApeKIPinus_X5.cnt
+Number of Tags in file:2416067
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4093697
+Unique tags retained:1651671
+1651671 tags will be output to /home/mshu/UNEAK/tagCounts/3010_HG2C5BBXX_5_C9_ApeKIPinus_X5.cnt
+These 1651671 tags were covered by 5745368 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3010_HG2C5BBXX_5_C9_ApeKIPinus_X5.cnt
+Number of Tags in file:1651671
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:45026270
+Unique tags retained:4292004
+4292004 tags will be output to /home/mshu/UNEAK/tagCounts/3027_HG2C5BBXX_5_A4_ApeKIPinus_X5.cnt
+These 4292004 tags were covered by 49318274 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3027_HG2C5BBXX_5_A4_ApeKIPinus_X5.cnt
+Number of Tags in file:4292004
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5815086
+Unique tags retained:2267184
+2267184 tags will be output to /home/mshu/UNEAK/tagCounts/3037_HG2C5BBXX_5_A11_ApeKIPinus_X5.cnt
+These 2267184 tags were covered by 8082270 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3037_HG2C5BBXX_5_A11_ApeKIPinus_X5.cnt
+Number of Tags in file:2267184
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5803116
+Unique tags retained:2299569
+2299569 tags will be output to /home/mshu/UNEAK/tagCounts/3040_HG2C5BBXX_5_A6_ApeKIPinus_X5.cnt
+These 2299569 tags were covered by 8102685 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3040_HG2C5BBXX_5_A6_ApeKIPinus_X5.cnt
+Number of Tags in file:2299569
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5484674
+Unique tags retained:2407098
+2407098 tags will be output to /home/mshu/UNEAK/tagCounts/3041_HG2C5BBXX_5_B5_ApeKIPinus_X5.cnt
+These 2407098 tags were covered by 7891772 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3041_HG2C5BBXX_5_B5_ApeKIPinus_X5.cnt
+Number of Tags in file:2407098
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5478908
+Unique tags retained:2073558
+2073558 tags will be output to /home/mshu/UNEAK/tagCounts/3046_HG2C5BBXX_5_A9_ApeKIPinus_X5.cnt
+These 2073558 tags were covered by 7552466 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3046_HG2C5BBXX_5_A9_ApeKIPinus_X5.cnt
+Number of Tags in file:2073558
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3202742
+Unique tags retained:1337071
+1337071 tags will be output to /home/mshu/UNEAK/tagCounts/3048_HG2C5BBXX_5_A8_ApeKIPinus_X5.cnt
+These 1337071 tags were covered by 4539813 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3048_HG2C5BBXX_5_A8_ApeKIPinus_X5.cnt
+Number of Tags in file:1337071
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5184228
+Unique tags retained:1891378
+1891378 tags will be output to /home/mshu/UNEAK/tagCounts/3061_HG2C5BBXX_5_B1_ApeKIPinus_X5.cnt
+These 1891378 tags were covered by 7075606 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3061_HG2C5BBXX_5_B1_ApeKIPinus_X5.cnt
+Number of Tags in file:1891378
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4890023
+Unique tags retained:2057069
+2057069 tags will be output to /home/mshu/UNEAK/tagCounts/3063_HG2C5BBXX_5_B2_ApeKIPinus_X5.cnt
+These 2057069 tags were covered by 6947092 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3063_HG2C5BBXX_5_B2_ApeKIPinus_X5.cnt
+Number of Tags in file:2057069
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4794307
+Unique tags retained:1966164
+1966164 tags will be output to /home/mshu/UNEAK/tagCounts/3068_HG2C5BBXX_5_C10_ApeKIPinus_X5.cnt
+These 1966164 tags were covered by 6760471 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3068_HG2C5BBXX_5_C10_ApeKIPinus_X5.cnt
+Number of Tags in file:1966164
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5936991
+Unique tags retained:2109577
+2109577 tags will be output to /home/mshu/UNEAK/tagCounts/3088_HG2C5BBXX_5_B10_ApeKIPinus_X5.cnt
+These 2109577 tags were covered by 8046568 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3088_HG2C5BBXX_5_B10_ApeKIPinus_X5.cnt
+Number of Tags in file:2109577
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4791009
+Unique tags retained:1898384
+1898384 tags will be output to /home/mshu/UNEAK/tagCounts/3121_HG2C5BBXX_5_B12_ApeKIPinus_X5.cnt
+These 1898384 tags were covered by 6689393 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3121_HG2C5BBXX_5_B12_ApeKIPinus_X5.cnt
+Number of Tags in file:1898384
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5843940
+Unique tags retained:2306141
+2306141 tags will be output to /home/mshu/UNEAK/tagCounts/3129_HG2C5BBXX_5_C7_ApeKIPinus_X5.cnt
+These 2306141 tags were covered by 8150081 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3129_HG2C5BBXX_5_C7_ApeKIPinus_X5.cnt
+Number of Tags in file:2306141
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4717057
+Unique tags retained:1926823
+1926823 tags will be output to /home/mshu/UNEAK/tagCounts/3138_HG2C5BBXX_5_B6_ApeKIPinus_X5.cnt
+These 1926823 tags were covered by 6643880 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3138_HG2C5BBXX_5_B6_ApeKIPinus_X5.cnt
+Number of Tags in file:1926823
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4134921
+Unique tags retained:1642300
+1642300 tags will be output to /home/mshu/UNEAK/tagCounts/3152_HG2C5BBXX_5_C11_ApeKIPinus_X5.cnt
+These 1642300 tags were covered by 5777221 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3152_HG2C5BBXX_5_C11_ApeKIPinus_X5.cnt
+Number of Tags in file:1642300
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5516234
+Unique tags retained:2025988
+2025988 tags will be output to /home/mshu/UNEAK/tagCounts/3165_HG2C5BBXX_5_C12_ApeKIPinus_X5.cnt
+These 2025988 tags were covered by 7542222 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3165_HG2C5BBXX_5_C12_ApeKIPinus_X5.cnt
+Number of Tags in file:2025988
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:7243783
+Unique tags retained:2432402
+2432402 tags will be output to /home/mshu/UNEAK/tagCounts/3166_HG2C5BBXX_5_B9_ApeKIPinus_X5.cnt
+These 2432402 tags were covered by 9676185 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3166_HG2C5BBXX_5_B9_ApeKIPinus_X5.cnt
+Number of Tags in file:2432402
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:6536988
+Unique tags retained:3216097
+3216097 tags will be output to /home/mshu/UNEAK/tagCounts/3187_HG2C5BBXX_5_C8_ApeKIPinus_X5.cnt
+These 3216097 tags were covered by 9753085 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3187_HG2C5BBXX_5_C8_ApeKIPinus_X5.cnt
+Number of Tags in file:3216097
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5450138
+Unique tags retained:2466745
+2466745 tags will be output to /home/mshu/UNEAK/tagCounts/3211_HG2C5BBXX_5_B7_ApeKIPinus_X5.cnt
+These 2466745 tags were covered by 7916883 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3211_HG2C5BBXX_5_B7_ApeKIPinus_X5.cnt
+Number of Tags in file:2466745
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4767573
+Unique tags retained:2227480
+2227480 tags will be output to /home/mshu/UNEAK/tagCounts/3216_HG2C5BBXX_5_A1_ApeKIPinus_X5.cnt
+These 2227480 tags were covered by 6995053 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3216_HG2C5BBXX_5_A1_ApeKIPinus_X5.cnt
+Number of Tags in file:2227480
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2193167
+Unique tags retained:1214215
+1214215 tags will be output to /home/mshu/UNEAK/tagCounts/3260_HG2C5BBXX_5_D1_ApeKIPinus_X5.cnt
+These 1214215 tags were covered by 3407382 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3260_HG2C5BBXX_5_D1_ApeKIPinus_X5.cnt
+Number of Tags in file:1214215
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:6331542
+Unique tags retained:2234814
+2234814 tags will be output to /home/mshu/UNEAK/tagCounts/3272_HG2C5BBXX_5_A7_ApeKIPinus_X5.cnt
+These 2234814 tags were covered by 8566356 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3272_HG2C5BBXX_5_A7_ApeKIPinus_X5.cnt
+Number of Tags in file:2234814
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5979367
+Unique tags retained:2366710
+2366710 tags will be output to /home/mshu/UNEAK/tagCounts/3291_HG2C5BBXX_5_A3_ApeKIPinus_X5.cnt
+These 2366710 tags were covered by 8346077 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3291_HG2C5BBXX_5_A3_ApeKIPinus_X5.cnt
+Number of Tags in file:2366710
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3279763
+Unique tags retained:1324774
+1324774 tags will be output to /home/mshu/UNEAK/tagCounts/3303_HG2C5BBXX_5_A5_ApeKIPinus_X5.cnt
+These 1324774 tags were covered by 4604537 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3303_HG2C5BBXX_5_A5_ApeKIPinus_X5.cnt
+Number of Tags in file:1324774
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:6474536
+Unique tags retained:2068917
+2068917 tags will be output to /home/mshu/UNEAK/tagCounts/3310_HG2C5BBXX_5_C2_ApeKIPinus_X5.cnt
+These 2068917 tags were covered by 8543453 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3310_HG2C5BBXX_5_C2_ApeKIPinus_X5.cnt
+Number of Tags in file:2068917
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4986855
+Unique tags retained:1825025
+1825025 tags will be output to /home/mshu/UNEAK/tagCounts/3318_HG2C5BBXX_5_D5_ApeKIPinus_X5.cnt
+These 1825025 tags were covered by 6811880 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3318_HG2C5BBXX_5_D5_ApeKIPinus_X5.cnt
+Number of Tags in file:1825025
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4082430
+Unique tags retained:1812089
+1812089 tags will be output to /home/mshu/UNEAK/tagCounts/3325_HG2C5BBXX_5_B11_ApeKIPinus_X5.cnt
+These 1812089 tags were covered by 5894519 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3325_HG2C5BBXX_5_B11_ApeKIPinus_X5.cnt
+Number of Tags in file:1812089
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5009133
+Unique tags retained:1954777
+1954777 tags will be output to /home/mshu/UNEAK/tagCounts/3331_HG2C5BBXX_5_C1_ApeKIPinus_X5.cnt
+These 1954777 tags were covered by 6963910 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3331_HG2C5BBXX_5_C1_ApeKIPinus_X5.cnt
+Number of Tags in file:1954777
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3294477
+Unique tags retained:1493690
+1493690 tags will be output to /home/mshu/UNEAK/tagCounts/3352_HG2C5BBXX_5_C4_ApeKIPinus_X5.cnt
+These 1493690 tags were covered by 4788167 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3352_HG2C5BBXX_5_C4_ApeKIPinus_X5.cnt
+Number of Tags in file:1493690
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4507996
+Unique tags retained:1722002
+1722002 tags will be output to /home/mshu/UNEAK/tagCounts/3355_HG2C5BBXX_5_D3_ApeKIPinus_X5.cnt
+These 1722002 tags were covered by 6229998 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3355_HG2C5BBXX_5_D3_ApeKIPinus_X5.cnt
+Number of Tags in file:1722002
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4960792
+Unique tags retained:2104666
+2104666 tags will be output to /home/mshu/UNEAK/tagCounts/3364_HG2C5BBXX_5_D2_ApeKIPinus_X5.cnt
+These 2104666 tags were covered by 7065458 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3364_HG2C5BBXX_5_D2_ApeKIPinus_X5.cnt
+Number of Tags in file:2104666
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4213442
+Unique tags retained:1737289
+1737289 tags will be output to /home/mshu/UNEAK/tagCounts/3365_HG2C5BBXX_5_D7_ApeKIPinus_X5.cnt
+These 1737289 tags were covered by 5950731 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3365_HG2C5BBXX_5_D7_ApeKIPinus_X5.cnt
+Number of Tags in file:1737289
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5700379
+Unique tags retained:2257201
+2257201 tags will be output to /home/mshu/UNEAK/tagCounts/3368_HG2C5BBXX_5_D6_ApeKIPinus_X5.cnt
+These 2257201 tags were covered by 7957580 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3368_HG2C5BBXX_5_D6_ApeKIPinus_X5.cnt
+Number of Tags in file:2257201
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:6132288
+Unique tags retained:3171796
+3171796 tags will be output to /home/mshu/UNEAK/tagCounts/3369_HG2C5BBXX_5_C5_ApeKIPinus_X5.cnt
+These 3171796 tags were covered by 9304084 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3369_HG2C5BBXX_5_C5_ApeKIPinus_X5.cnt
+Number of Tags in file:3171796
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:6404123
+Unique tags retained:2151936
+2151936 tags will be output to /home/mshu/UNEAK/tagCounts/3371_HG2C5BBXX_5_A12_ApeKIPinus_X5.cnt
+These 2151936 tags were covered by 8556059 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3371_HG2C5BBXX_5_A12_ApeKIPinus_X5.cnt
+Number of Tags in file:2151936
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4563559
+Unique tags retained:1745639
+1745639 tags will be output to /home/mshu/UNEAK/tagCounts/3373_HG2C5BBXX_5_B3_ApeKIPinus_X5.cnt
+These 1745639 tags were covered by 6309198 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3373_HG2C5BBXX_5_B3_ApeKIPinus_X5.cnt
+Number of Tags in file:1745639
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:6108345
+Unique tags retained:2224962
+2224962 tags will be output to /home/mshu/UNEAK/tagCounts/3399_HG2C5BBXX_5_D4_ApeKIPinus_X5.cnt
+These 2224962 tags were covered by 8333307 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3399_HG2C5BBXX_5_D4_ApeKIPinus_X5.cnt
+Number of Tags in file:2224962
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5121416
+Unique tags retained:1952658
+1952658 tags will be output to /home/mshu/UNEAK/tagCounts/3407_HG2C5BBXX_5_A10_ApeKIPinus_X5.cnt
+These 1952658 tags were covered by 7074074 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3407_HG2C5BBXX_5_A10_ApeKIPinus_X5.cnt
+Number of Tags in file:1952658
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2406445
+Unique tags retained:1413466
+1413466 tags will be output to /home/mshu/UNEAK/tagCounts/3409_HG2C5BBXX_5_D8_ApeKIPinus_X5.cnt
+These 1413466 tags were covered by 3819911 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3409_HG2C5BBXX_5_D8_ApeKIPinus_X5.cnt
+Number of Tags in file:1413466
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4135673
+Unique tags retained:1719945
+1719945 tags will be output to /home/mshu/UNEAK/tagCounts/3413_HG2C5BBXX_5_C3_ApeKIPinus_X5.cnt
+These 1719945 tags were covered by 5855618 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3413_HG2C5BBXX_5_C3_ApeKIPinus_X5.cnt
+Number of Tags in file:1719945
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4226380
+Unique tags retained:1665785
+1665785 tags will be output to /home/mshu/UNEAK/tagCounts/3424_HG2C5BBXX_5_D9_ApeKIPinus_X5.cnt
+These 1665785 tags were covered by 5892165 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3424_HG2C5BBXX_5_D9_ApeKIPinus_X5.cnt
+Number of Tags in file:1665785
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5810580
+Unique tags retained:2367154
+2367154 tags will be output to /home/mshu/UNEAK/tagCounts/4208_HG2C5BBXX_5_A2_ApeKIPinus_X5.cnt
+These 2367154 tags were covered by 8177734 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/4208_HG2C5BBXX_5_A2_ApeKIPinus_X5.cnt
+Number of Tags in file:2367154
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:8095524
+Unique tags retained:2533729
+2533729 tags will be output to /home/mshu/UNEAK/tagCounts/4224_HG2C5BBXX_5_B8_ApeKIPinus_X5.cnt
+These 2533729 tags were covered by 10629253 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/4224_HG2C5BBXX_5_B8_ApeKIPinus_X5.cnt
+Number of Tags in file:2533729
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2869486
+Unique tags retained:1393130
+1393130 tags will be output to /home/mshu/UNEAK/tagCounts/4233_HG2C5BBXX_5_D10_ApeKIPinus_X5.cnt
+These 1393130 tags were covered by 4262616 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/4233_HG2C5BBXX_5_D10_ApeKIPinus_X5.cnt
+Number of Tags in file:1393130
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:634
+Unique tags retained:1300
+1300 tags will be output to /home/mshu/UNEAK/tagCounts/water2_HG2C5BBXX_5_D12_ApeKIPinus_X5.cnt
+These 1300 tags were covered by 1934 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/water2_HG2C5BBXX_5_D12_ApeKIPinus_X5.cnt
+Number of Tags in file:1300
+Process took 312925 milliseconds.
+Finished reading 1 of 2 sequence files.
+Reading FASTQ file: /home/mshu/UNEAK/Illumina/HGGWTBBXX_6_fastq.gz
+Enzyme: ApeKI
+AGGC 3091:HGGWTBBXX:6:A1:ApeKIPinus
+AGCATT 3242:HGGWTBBXX:6:A2:ApeKIPinus
+AATCGTT 3015:HGGWTBBXX:6:A3:ApeKIPinus
+TCAAGTT 3039:HGGWTBBXX:6:A4:ApeKIPinus
+ACGTGTA 3255:HGGWTBBXX:6:A5:ApeKIPinus
+CAAGAAGT 3186:HGGWTBBXX:6:A6:ApeKIPinus
+AACGTAGA 18814:HGGWTBBXX:6:A7:ApeKIPinus
+AGCTTGGT 3075:HGGWTBBXX:6:A8:ApeKIPinus
+GATT 3289:HGGWTBBXX:6:A9:ApeKIPinus
+CTCCGA 3524:HGGWTBBXX:6:A10:ApeKIPinus
+CTATGGA 4203:HGGWTBBXX:6:A11:ApeKIPinus
+GATCATA 3057:HGGWTBBXX:6:A12:ApeKIPinus
+GATGCAT 3137:HGGWTBBXX:6:B1:ApeKIPinus
+GTCATGGT 3006:HGGWTBBXX:6:B2:ApeKIPinus
+CTCACGGA 3073:HGGWTBBXX:6:B3:ApeKIPinus
+ACAGATGA 3022:HGGWTBBXX:6:B4:ApeKIPinus
+ACCGT 3185:HGGWTBBXX:6:B5:ApeKIPinus
+TTGGCA 3178:HGGWTBBXX:6:B6:ApeKIPinus
+TACGGTA 3356:HGGWTBBXX:6:B7:ApeKIPinus
+GCATTGA 3339:HGGWTBBXX:6:B8:ApeKIPinus
+CTAATGT 3277:HGGWTBBXX:6:B9:ApeKIPinus
+AACAGTGA 3335:HGGWTBBXX:6:B10:ApeKIPinus
+TAGCGTGT 3302:HGGWTBBXX:6:B11:ApeKIPinus
+CAGTTGGT 3512:HGGWTBBXX:6:B12:ApeKIPinus
+CGTCA 3508:HGGWTBBXX:6:C1:ApeKIPinus
+CCACGT 18231:HGGWTBBXX:6:C2:ApeKIPinus
+ACTATGT 3474:HGGWTBBXX:6:C3:ApeKIPinus
+CAGGTAT 3467:HGGWTBBXX:6:C4:ApeKIPinus
+GTCGATA 3247:HGGWTBBXX:6:C5:ApeKIPinus
+GTGCAAGA 3282:HGGWTBBXX:6:C6:ApeKIPinus
+ACGTAAGA 3181:HGGWTBBXX:6:C7:ApeKIPinus
+TGCAAGAA 3229:HGGWTBBXX:6:C8:ApeKIPinus
+TCGCA 3221:HGGWTBBXX:6:C9:ApeKIPinus
+GATGTC 3267:HGGWTBBXX:6:C10:ApeKIPinus
+CGTGAAT 3034:HGGWTBBXX:6:C11:ApeKIPinus
+TGCAATA 3468:HGGWTBBXX:6:C12:ApeKIPinus
+TATACGT 3286:HGGWTBBXX:6:D1:ApeKIPinus
+CAATAGGA 3306:HGGWTBBXX:6:D2:ApeKIPinus
+CGTATGGT 3156:HGGWTBBXX:6:D3:ApeKIPinus
+ACTCGAGA 3293:HGGWTBBXX:6:D4:ApeKIPinus
+CGCAT 3275:HGGWTBBXX:6:D5:ApeKIPinus
+TGTTAC 3174:HGGWTBBXX:6:D6:ApeKIPinus
+TTGCAGA 3019:HGGWTBBXX:6:D7:ApeKIPinus
+ATATCGT 3020:HGGWTBBXX:6:D8:ApeKIPinus
+GCGTAAT 3066:HGGWTBBXX:6:D9:ApeKIPinus
+TGCAGTGT 3071:HGGWTBBXX:6:D10:ApeKIPinus
+GTACGTGT 3411:HGGWTBBXX:6:D11:ApeKIPinus
+GGAGCTGT water:HGGWTBBXX:6:D12:ApeKIPinus
+Total barcodes found in lane:48
+Total barcodes found in lane:48
+Total Reads:1000000 Reads with barcode and cut site overhang:918988
+Total Reads:2000000 Reads with barcode and cut site overhang:1846760
+Total Reads:3000000 Reads with barcode and cut site overhang:2774777
+Total Reads:4000000 Reads with barcode and cut site overhang:3693313
+Total Reads:5000000 Reads with barcode and cut site overhang:4621039
+Total Reads:6000000 Reads with barcode and cut site overhang:5549053
+Total Reads:7000000 Reads with barcode and cut site overhang:6477057
+Total Reads:8000000 Reads with barcode and cut site overhang:7394620
+Total Reads:9000000 Reads with barcode and cut site overhang:8322897
+Total Reads:10000000 Reads with barcode and cut site overhang:9250674
+Total Reads:11000000 Reads with barcode and cut site overhang:10169623
+Total Reads:12000000 Reads with barcode and cut site overhang:11097711
+Total Reads:13000000 Reads with barcode and cut site overhang:12024990
+Total Reads:14000000 Reads with barcode and cut site overhang:12952265
+Total Reads:15000000 Reads with barcode and cut site overhang:13869747
+Total Reads:16000000 Reads with barcode and cut site overhang:14797452
+Total Reads:17000000 Reads with barcode and cut site overhang:15725275
+Total Reads:18000000 Reads with barcode and cut site overhang:16642602
+Total Reads:19000000 Reads with barcode and cut site overhang:17570918
+Total Reads:20000000 Reads with barcode and cut site overhang:18499494
+Total Reads:21000000 Reads with barcode and cut site overhang:19427529
+Total Reads:22000000 Reads with barcode and cut site overhang:20344806
+Total Reads:23000000 Reads with barcode and cut site overhang:21272634
+Total Reads:24000000 Reads with barcode and cut site overhang:22200199
+Total Reads:25000000 Reads with barcode and cut site overhang:23127943
+Total Reads:26000000 Reads with barcode and cut site overhang:24042441
+Total Reads:27000000 Reads with barcode and cut site overhang:24968400
+Total Reads:28000000 Reads with barcode and cut site overhang:25895210
+Total Reads:29000000 Reads with barcode and cut site overhang:26811329
+Total Reads:30000000 Reads with barcode and cut site overhang:27739434
+Total Reads:31000000 Reads with barcode and cut site overhang:28667634
+Total Reads:32000000 Reads with barcode and cut site overhang:29595793
+Total Reads:33000000 Reads with barcode and cut site overhang:30512595
+Total Reads:34000000 Reads with barcode and cut site overhang:31441537
+Total Reads:35000000 Reads with barcode and cut site overhang:32369179
+Total Reads:36000000 Reads with barcode and cut site overhang:33287258
+Total Reads:37000000 Reads with barcode and cut site overhang:34215754
+Total Reads:38000000 Reads with barcode and cut site overhang:35144478
+Total Reads:39000000 Reads with barcode and cut site overhang:36073086
+Total Reads:40000000 Reads with barcode and cut site overhang:36991481
+Total Reads:41000000 Reads with barcode and cut site overhang:37919705
+Total Reads:42000000 Reads with barcode and cut site overhang:38848648
+Total Reads:43000000 Reads with barcode and cut site overhang:39777688
+Total Reads:44000000 Reads with barcode and cut site overhang:40695643
+Total Reads:45000000 Reads with barcode and cut site overhang:41624935
+Total Reads:46000000 Reads with barcode and cut site overhang:42554091
+Total Reads:47000000 Reads with barcode and cut site overhang:43472858
+Total Reads:48000000 Reads with barcode and cut site overhang:44402277
+Total Reads:49000000 Reads with barcode and cut site overhang:45331429
+Total Reads:50000000 Reads with barcode and cut site overhang:46260061
+Total Reads:51000000 Reads with barcode and cut site overhang:47179218
+Total Reads:52000000 Reads with barcode and cut site overhang:48107916
+Total Reads:53000000 Reads with barcode and cut site overhang:49038550
+Total Reads:54000000 Reads with barcode and cut site overhang:49958396
+Total Reads:55000000 Reads with barcode and cut site overhang:50888725
+Total Reads:56000000 Reads with barcode and cut site overhang:51819238
+Total Reads:57000000 Reads with barcode and cut site overhang:52749560
+Total Reads:58000000 Reads with barcode and cut site overhang:53670530
+Total Reads:59000000 Reads with barcode and cut site overhang:54601245
+Total Reads:60000000 Reads with barcode and cut site overhang:55532141
+Total Reads:61000000 Reads with barcode and cut site overhang:56463183
+Total Reads:62000000 Reads with barcode and cut site overhang:57383254
+Total Reads:63000000 Reads with barcode and cut site overhang:58313297
+Total Reads:64000000 Reads with barcode and cut site overhang:59243835
+Total Reads:65000000 Reads with barcode and cut site overhang:60164788
+Total Reads:66000000 Reads with barcode and cut site overhang:61096555
+Total Reads:67000000 Reads with barcode and cut site overhang:62028162
+Total Reads:68000000 Reads with barcode and cut site overhang:62960023
+Total Reads:69000000 Reads with barcode and cut site overhang:63881673
+Total Reads:70000000 Reads with barcode and cut site overhang:64813505
+Total Reads:71000000 Reads with barcode and cut site overhang:65745285
+Total Reads:72000000 Reads with barcode and cut site overhang:66667357
+Total Reads:73000000 Reads with barcode and cut site overhang:67598862
+Total Reads:74000000 Reads with barcode and cut site overhang:68530649
+Total Reads:75000000 Reads with barcode and cut site overhang:69462533
+Total Reads:76000000 Reads with barcode and cut site overhang:70385231
+Total Reads:77000000 Reads with barcode and cut site overhang:71316798
+Total Reads:78000000 Reads with barcode and cut site overhang:72248407
+Total Reads:79000000 Reads with barcode and cut site overhang:73170581
+Total Reads:80000000 Reads with barcode and cut site overhang:74102654
+Total Reads:81000000 Reads with barcode and cut site overhang:75034730
+Total Reads:82000000 Reads with barcode and cut site overhang:75966435
+Total Reads:83000000 Reads with barcode and cut site overhang:76888796
+Total Reads:84000000 Reads with barcode and cut site overhang:77820388
+Total Reads:85000000 Reads with barcode and cut site overhang:78752299
+Total Reads:86000000 Reads with barcode and cut site overhang:79676022
+Total Reads:87000000 Reads with barcode and cut site overhang:80607722
+Total Reads:88000000 Reads with barcode and cut site overhang:81539316
+Total Reads:89000000 Reads with barcode and cut site overhang:82471027
+Total Reads:90000000 Reads with barcode and cut site overhang:83394360
+Total Reads:91000000 Reads with barcode and cut site overhang:84325947
+Total Reads:92000000 Reads with barcode and cut site overhang:85257530
+Total Reads:93000000 Reads with barcode and cut site overhang:86189405
+Total Reads:94000000 Reads with barcode and cut site overhang:87112804
+Total Reads:95000000 Reads with barcode and cut site overhang:88045180
+Total Reads:96000000 Reads with barcode and cut site overhang:88976664
+Total Reads:97000000 Reads with barcode and cut site overhang:89900076
+Total Reads:98000000 Reads with barcode and cut site overhang:90831212
+Total Reads:99000000 Reads with barcode and cut site overhang:91762640
+Total Reads:100000000 Reads with barcode and cut site overhang:92694203
+Total Reads:101000000 Reads with barcode and cut site overhang:93615158
+Total Reads:102000000 Reads with barcode and cut site overhang:94544397
+Total Reads:103000000 Reads with barcode and cut site overhang:95473211
+Total Reads:104000000 Reads with barcode and cut site overhang:96393763
+Total Reads:105000000 Reads with barcode and cut site overhang:97322445
+Total Reads:106000000 Reads with barcode and cut site overhang:98251175
+Total Reads:107000000 Reads with barcode and cut site overhang:99180533
+Total Reads:108000000 Reads with barcode and cut site overhang:100101122
+Total Reads:109000000 Reads with barcode and cut site overhang:101029746
+Total Reads:110000000 Reads with barcode and cut site overhang:101958587
+Total Reads:111000000 Reads with barcode and cut site overhang:102879331
+Total Reads:112000000 Reads with barcode and cut site overhang:103808426
+Total Reads:113000000 Reads with barcode and cut site overhang:104737913
+Total Reads:114000000 Reads with barcode and cut site overhang:105667249
+Total Reads:115000000 Reads with barcode and cut site overhang:106588439
+Total Reads:116000000 Reads with barcode and cut site overhang:107518391
+Total Reads:117000000 Reads with barcode and cut site overhang:108447403
+Total Reads:118000000 Reads with barcode and cut site overhang:109376679
+Total Reads:119000000 Reads with barcode and cut site overhang:110297035
+Total Reads:120000000 Reads with barcode and cut site overhang:111226983
+Total Reads:121000000 Reads with barcode and cut site overhang:112156978
+Total Reads:122000000 Reads with barcode and cut site overhang:113076905
+Total Reads:123000000 Reads with barcode and cut site overhang:114006647
+Total Reads:124000000 Reads with barcode and cut site overhang:114936149
+Total Reads:125000000 Reads with barcode and cut site overhang:115865675
+Total Reads:126000000 Reads with barcode and cut site overhang:116785646
+Total Reads:127000000 Reads with barcode and cut site overhang:117715063
+Total Reads:128000000 Reads with barcode and cut site overhang:118644735
+Total Reads:129000000 Reads with barcode and cut site overhang:119564919
+Total Reads:130000000 Reads with barcode and cut site overhang:120494319
+Total Reads:131000000 Reads with barcode and cut site overhang:121424004
+Total Reads:132000000 Reads with barcode and cut site overhang:122354173
+Total Reads:133000000 Reads with barcode and cut site overhang:123275452
+Total Reads:134000000 Reads with barcode and cut site overhang:124205377
+Total Reads:135000000 Reads with barcode and cut site overhang:125135477
+Total Reads:136000000 Reads with barcode and cut site overhang:126055096
+Total Reads:137000000 Reads with barcode and cut site overhang:126985285
+Total Reads:138000000 Reads with barcode and cut site overhang:127915745
+Total Reads:139000000 Reads with barcode and cut site overhang:128845910
+Total Reads:140000000 Reads with barcode and cut site overhang:129767824
+Total Reads:141000000 Reads with barcode and cut site overhang:130697325
+Total Reads:142000000 Reads with barcode and cut site overhang:131627220
+Total Reads:143000000 Reads with barcode and cut site overhang:132557563
+Total Reads:144000000 Reads with barcode and cut site overhang:133478668
+Total Reads:145000000 Reads with barcode and cut site overhang:134409031
+Total Reads:146000000 Reads with barcode and cut site overhang:135338715
+Total Reads:147000000 Reads with barcode and cut site overhang:136258995
+Total Reads:148000000 Reads with barcode and cut site overhang:137188459
+Total Reads:149000000 Reads with barcode and cut site overhang:138118186
+Total Reads:150000000 Reads with barcode and cut site overhang:139048323
+Total Reads:151000000 Reads with barcode and cut site overhang:139969550
+Total Reads:152000000 Reads with barcode and cut site overhang:140899824
+Total Reads:153000000 Reads with barcode and cut site overhang:141830302
+Total Reads:154000000 Reads with barcode and cut site overhang:142751841
+Total Reads:155000000 Reads with barcode and cut site overhang:143682784
+Total Reads:156000000 Reads with barcode and cut site overhang:144614578
+Total Reads:157000000 Reads with barcode and cut site overhang:145545891
+Total Reads:158000000 Reads with barcode and cut site overhang:146469780
+Total Reads:159000000 Reads with barcode and cut site overhang:147401774
+Total Reads:160000000 Reads with barcode and cut site overhang:148333914
+Total Reads:161000000 Reads with barcode and cut site overhang:149265621
+Total Reads:162000000 Reads with barcode and cut site overhang:150188362
+Total Reads:163000000 Reads with barcode and cut site overhang:151119740
+Total Reads:164000000 Reads with barcode and cut site overhang:152051406
+Total Reads:165000000 Reads with barcode and cut site overhang:152975139
+Total Reads:166000000 Reads with barcode and cut site overhang:153906733
+Total Reads:167000000 Reads with barcode and cut site overhang:154838673
+Total Reads:168000000 Reads with barcode and cut site overhang:155770686
+Total Reads:169000000 Reads with barcode and cut site overhang:156695498
+Total Reads:170000000 Reads with barcode and cut site overhang:157627155
+Total Reads:171000000 Reads with barcode and cut site overhang:158558963
+Total Reads:172000000 Reads with barcode and cut site overhang:159482806
+Total Reads:173000000 Reads with barcode and cut site overhang:160414368
+Total Reads:174000000 Reads with barcode and cut site overhang:161346069
+Total Reads:175000000 Reads with barcode and cut site overhang:162278001
+Total Reads:176000000 Reads with barcode and cut site overhang:163202754
+Total Reads:177000000 Reads with barcode and cut site overhang:164135135
+Total Reads:178000000 Reads with barcode and cut site overhang:165067377
+Total Reads:179000000 Reads with barcode and cut site overhang:165990934
+Total Reads:180000000 Reads with barcode and cut site overhang:166922274
+Total Reads:181000000 Reads with barcode and cut site overhang:167854469
+Total Reads:182000000 Reads with barcode and cut site overhang:168785853
+Total Reads:183000000 Reads with barcode and cut site overhang:169709815
+Total Reads:184000000 Reads with barcode and cut site overhang:170640842
+Total Reads:185000000 Reads with barcode and cut site overhang:171572332
+Total Reads:186000000 Reads with barcode and cut site overhang:172503410
+Total Reads:187000000 Reads with barcode and cut site overhang:173428073
+Total Reads:188000000 Reads with barcode and cut site overhang:174359815
+Total Reads:189000000 Reads with barcode and cut site overhang:175291060
+Total Reads:190000000 Reads with barcode and cut site overhang:176215091
+Total Reads:191000000 Reads with barcode and cut site overhang:177146689
+Total Reads:192000000 Reads with barcode and cut site overhang:178078009
+Total Reads:193000000 Reads with barcode and cut site overhang:179009494
+Total Reads:194000000 Reads with barcode and cut site overhang:179934218
+Total Reads:195000000 Reads with barcode and cut site overhang:180865571
+Total Reads:196000000 Reads with barcode and cut site overhang:181797236
+Total Reads:197000000 Reads with barcode and cut site overhang:182720572
+Total Reads:198000000 Reads with barcode and cut site overhang:183651960
+Total Reads:199000000 Reads with barcode and cut site overhang:184583692
+Total Reads:200000000 Reads with barcode and cut site overhang:185515228
+Total Reads:201000000 Reads with barcode and cut site overhang:186444069
+Total Reads:202000000 Reads with barcode and cut site overhang:187365061
+Total Reads:203000000 Reads with barcode and cut site overhang:188206938
+Total Reads:204000000 Reads with barcode and cut site overhang:189134637
+Total Reads:205000000 Reads with barcode and cut site overhang:190011969
+Total Reads:206000000 Reads with barcode and cut site overhang:190921852
+Total Reads:207000000 Reads with barcode and cut site overhang:191850590
+Total Reads:208000000 Reads with barcode and cut site overhang:192778871
+Total Reads:209000000 Reads with barcode and cut site overhang:193707608
+Total Reads:210000000 Reads with barcode and cut site overhang:194636374
+Total Reads:211000000 Reads with barcode and cut site overhang:195563783
+Total Reads:212000000 Reads with barcode and cut site overhang:196473579
+Total Reads:213000000 Reads with barcode and cut site overhang:197401455
+Total Reads:214000000 Reads with barcode and cut site overhang:198114448
+Total Reads:215000000 Reads with barcode and cut site overhang:198704537
+Total Reads:216000000 Reads with barcode and cut site overhang:199606432
+Total Reads:217000000 Reads with barcode and cut site overhang:200512899
+Total Reads:218000000 Reads with barcode and cut site overhang:201417290
+Total Reads:219000000 Reads with barcode and cut site overhang:202344160
+Total Reads:220000000 Reads with barcode and cut site overhang:203273019
+Total Reads:221000000 Reads with barcode and cut site overhang:204201335
+Total Reads:222000000 Reads with barcode and cut site overhang:205122351
+Total Reads:223000000 Reads with barcode and cut site overhang:206050560
+Total Reads:224000000 Reads with barcode and cut site overhang:206972575
+Total Reads:225000000 Reads with barcode and cut site overhang:207890870
+Total Reads:226000000 Reads with barcode and cut site overhang:208819134
+Total Reads:227000000 Reads with barcode and cut site overhang:209747580
+Total Reads:228000000 Reads with barcode and cut site overhang:210676931
+Total Reads:229000000 Reads with barcode and cut site overhang:211605081
+Total Reads:230000000 Reads with barcode and cut site overhang:212511258
+Total Reads:231000000 Reads with barcode and cut site overhang:213439479
+Total Reads:232000000 Reads with barcode and cut site overhang:214357487
+Total Reads:233000000 Reads with barcode and cut site overhang:215268645
+Total Reads:234000000 Reads with barcode and cut site overhang:216191230
+Total Reads:235000000 Reads with barcode and cut site overhang:217120035
+Total Reads:236000000 Reads with barcode and cut site overhang:218040129
+Total Reads:237000000 Reads with barcode and cut site overhang:218956854
+Total Reads:238000000 Reads with barcode and cut site overhang:219876632
+Total Reads:239000000 Reads with barcode and cut site overhang:220804886
+Total Reads:240000000 Reads with barcode and cut site overhang:221714842
+Total Reads:241000000 Reads with barcode and cut site overhang:222627253
+Total Reads:242000000 Reads with barcode and cut site overhang:223532776
+Total Reads:243000000 Reads with barcode and cut site overhang:224452671
+Total Reads:244000000 Reads with barcode and cut site overhang:225380466
+Total Reads:245000000 Reads with barcode and cut site overhang:226309977
+Total Reads:246000000 Reads with barcode and cut site overhang:227238890
+Total Reads:247000000 Reads with barcode and cut site overhang:228148772
+Total Reads:248000000 Reads with barcode and cut site overhang:228977525
+Total Reads:249000000 Reads with barcode and cut site overhang:229897345
+Total Reads:250000000 Reads with barcode and cut site overhang:230826396
+Total Reads:251000000 Reads with barcode and cut site overhang:231752492
+Total Reads:252000000 Reads with barcode and cut site overhang:232668663
+Total Reads:253000000 Reads with barcode and cut site overhang:233489516
+Total Reads:254000000 Reads with barcode and cut site overhang:234219418
+Total Reads:255000000 Reads with barcode and cut site overhang:235120766
+Total Reads:256000000 Reads with barcode and cut site overhang:236037120
+Total Reads:257000000 Reads with barcode and cut site overhang:236959512
+Total Reads:258000000 Reads with barcode and cut site overhang:237888119
+Total Reads:259000000 Reads with barcode and cut site overhang:238792673
+Total Reads:260000000 Reads with barcode and cut site overhang:239723743
+Total Reads:261000000 Reads with barcode and cut site overhang:240649100
+Total Reads:262000000 Reads with barcode and cut site overhang:241385150
+Total Reads:263000000 Reads with barcode and cut site overhang:242224936
+Total Reads:264000000 Reads with barcode and cut site overhang:243154341
+Total Reads:265000000 Reads with barcode and cut site overhang:244082168
+Total Reads:266000000 Reads with barcode and cut site overhang:244996437
+Total Reads:267000000 Reads with barcode and cut site overhang:245926013
+Total Reads:268000000 Reads with barcode and cut site overhang:246841503
+Total Reads:269000000 Reads with barcode and cut site overhang:247752516
+Total Reads:270000000 Reads with barcode and cut site overhang:248530429
+Total Reads:271000000 Reads with barcode and cut site overhang:249147144
+Total Reads:272000000 Reads with barcode and cut site overhang:250055548
+Total Reads:273000000 Reads with barcode and cut site overhang:250985038
+Total Reads:274000000 Reads with barcode and cut site overhang:251914402
+Total Reads:275000000 Reads with barcode and cut site overhang:252843991
+Total Reads:276000000 Reads with barcode and cut site overhang:252923859
+Total Reads:277000000 Reads with barcode and cut site overhang:252923859
+Total Reads:278000000 Reads with barcode and cut site overhang:252923859
+Total Reads:279000000 Reads with barcode and cut site overhang:253389909
+Total Reads:280000000 Reads with barcode and cut site overhang:254319771
+Total Reads:281000000 Reads with barcode and cut site overhang:255238844
+Total Reads:282000000 Reads with barcode and cut site overhang:256166909
+Total Reads:283000000 Reads with barcode and cut site overhang:257090760
+Total Reads:284000000 Reads with barcode and cut site overhang:258005107
+Total Reads:285000000 Reads with barcode and cut site overhang:258934744
+Total Reads:286000000 Reads with barcode and cut site overhang:259862321
+Total Reads:287000000 Reads with barcode and cut site overhang:260791694
+Total Reads:288000000 Reads with barcode and cut site overhang:261722097
+Total Reads:289000000 Reads with barcode and cut site overhang:262650993
+Total Reads:290000000 Reads with barcode and cut site overhang:263410421
+Total Reads:291000000 Reads with barcode and cut site overhang:264280072
+Total Reads:292000000 Reads with barcode and cut site overhang:265012968
+Total Reads:293000000 Reads with barcode and cut site overhang:265932837
+Total Reads:294000000 Reads with barcode and cut site overhang:266862225
+Total Reads:295000000 Reads with barcode and cut site overhang:267726722
+Total Reads:296000000 Reads with barcode and cut site overhang:268602624
+Total Reads:297000000 Reads with barcode and cut site overhang:269418843
+Total Reads:298000000 Reads with barcode and cut site overhang:270313543
+Total Reads:299000000 Reads with barcode and cut site overhang:271237760
+Total Reads:300000000 Reads with barcode and cut site overhang:272160237
+Total Reads:301000000 Reads with barcode and cut site overhang:273045910
+Total Reads:302000000 Reads with barcode and cut site overhang:273965364
+Total Reads:303000000 Reads with barcode and cut site overhang:274878218
+Total Reads:304000000 Reads with barcode and cut site overhang:275801321
+Total Reads:305000000 Reads with barcode and cut site overhang:276726326
+Total Reads:306000000 Reads with barcode and cut site overhang:277651401
+Total Reads:307000000 Reads with barcode and cut site overhang:278564734
+Total Reads:308000000 Reads with barcode and cut site overhang:279419051
+Total Reads:309000000 Reads with barcode and cut site overhang:280249991
+Total Reads:310000000 Reads with barcode and cut site overhang:281174738
+Total Reads:311000000 Reads with barcode and cut site overhang:282088564
+Total Reads:312000000 Reads with barcode and cut site overhang:283013079
+Total Reads:313000000 Reads with barcode and cut site overhang:283937469
+Total Reads:314000000 Reads with barcode and cut site overhang:284846540
+Total Reads:315000000 Reads with barcode and cut site overhang:285765346
+Total Reads:316000000 Reads with barcode and cut site overhang:286676728
+Total Reads:317000000 Reads with barcode and cut site overhang:287601533
+Total Reads:318000000 Reads with barcode and cut site overhang:288523271
+Total Reads:319000000 Reads with barcode and cut site overhang:289442291
+Total Reads:320000000 Reads with barcode and cut site overhang:290357666
+Total Reads:321000000 Reads with barcode and cut site overhang:291250410
+Total Reads:322000000 Reads with barcode and cut site overhang:292170217
+Total Reads:323000000 Reads with barcode and cut site overhang:293088181
+Total Reads:324000000 Reads with barcode and cut site overhang:293993859
+Total Reads:325000000 Reads with barcode and cut site overhang:294909915
+Total Reads:326000000 Reads with barcode and cut site overhang:295835099
+Total Reads:327000000 Reads with barcode and cut site overhang:296759278
+Total Reads:328000000 Reads with barcode and cut site overhang:297683859
+Total Reads:329000000 Reads with barcode and cut site overhang:298608804
+Total Reads:330000000 Reads with barcode and cut site overhang:299533416
+Total Reads:331000000 Reads with barcode and cut site overhang:300451871
+Total Reads:332000000 Reads with barcode and cut site overhang:301076872
+Total Reads:333000000 Reads with barcode and cut site overhang:301076872
+Total Reads:334000000 Reads with barcode and cut site overhang:301076872
+Total Reads:335000000 Reads with barcode and cut site overhang:301315002
+Total Reads:336000000 Reads with barcode and cut site overhang:302222465
+Total Reads:337000000 Reads with barcode and cut site overhang:303140487
+Total Reads:338000000 Reads with barcode and cut site overhang:304055347
+Total Reads:339000000 Reads with barcode and cut site overhang:304963002
+Total Reads:340000000 Reads with barcode and cut site overhang:305885176
+Total Reads:341000000 Reads with barcode and cut site overhang:306809888
+Total Reads:342000000 Reads with barcode and cut site overhang:307721109
+Total Reads:343000000 Reads with barcode and cut site overhang:308645543
+Total Reads:344000000 Reads with barcode and cut site overhang:309570153
+Total Reads:345000000 Reads with barcode and cut site overhang:310495429
+Total Reads:346000000 Reads with barcode and cut site overhang:311335556
+Total Reads:347000000 Reads with barcode and cut site overhang:312150530
+Total Reads:348000000 Reads with barcode and cut site overhang:312998775
+Total Reads:349000000 Reads with barcode and cut site overhang:313889704
+Total Reads:350000000 Reads with barcode and cut site overhang:314751067
+Total Reads:351000000 Reads with barcode and cut site overhang:315676498
+Total Reads:352000000 Reads with barcode and cut site overhang:316590619
+Total Reads:353000000 Reads with barcode and cut site overhang:317499608
+Total Reads:354000000 Reads with barcode and cut site overhang:318424741
+Total Reads:355000000 Reads with barcode and cut site overhang:319333254
+Total Reads:356000000 Reads with barcode and cut site overhang:320244929
+Total Reads:357000000 Reads with barcode and cut site overhang:321169466
+Total Reads:358000000 Reads with barcode and cut site overhang:322094447
+Total Reads:359000000 Reads with barcode and cut site overhang:323019790
+Total Reads:360000000 Reads with barcode and cut site overhang:323938732
+Total Reads:361000000 Reads with barcode and cut site overhang:324860894
+Total Reads:362000000 Reads with barcode and cut site overhang:325785056
+Total Reads:363000000 Reads with barcode and cut site overhang:326705121
+Total Reads:364000000 Reads with barcode and cut site overhang:327623687
+Total Reads:365000000 Reads with barcode and cut site overhang:328542888
+Total Reads:366000000 Reads with barcode and cut site overhang:329456741
+Total Reads:367000000 Reads with barcode and cut site overhang:330316343
+Total Reads:368000000 Reads with barcode and cut site overhang:331214447
+Total Reads:369000000 Reads with barcode and cut site overhang:332121911
+Total Reads:370000000 Reads with barcode and cut site overhang:333047547
+Total Reads:371000000 Reads with barcode and cut site overhang:333972831
+Total Reads:372000000 Reads with barcode and cut site overhang:334899040
+Total Reads:373000000 Reads with barcode and cut site overhang:335824626
+Total Reads:374000000 Reads with barcode and cut site overhang:336748282
+Total Reads:375000000 Reads with barcode and cut site overhang:337673084
+Total Reads:376000000 Reads with barcode and cut site overhang:338588929
+Total Reads:377000000 Reads with barcode and cut site overhang:339515213
+Total Reads:378000000 Reads with barcode and cut site overhang:340430657
+Total Reads:379000000 Reads with barcode and cut site overhang:341314977
+Total Reads:380000000 Reads with barcode and cut site overhang:342241175
+Total Reads:381000000 Reads with barcode and cut site overhang:343157775
+Total Reads:382000000 Reads with barcode and cut site overhang:343977193
+Total Reads:383000000 Reads with barcode and cut site overhang:344789108
+Total Reads:384000000 Reads with barcode and cut site overhang:345695104
+Total Reads:385000000 Reads with barcode and cut site overhang:346618772
+Total Reads:386000000 Reads with barcode and cut site overhang:347460594
+Total Reads:387000000 Reads with barcode and cut site overhang:348346824
+Total Reads:388000000 Reads with barcode and cut site overhang:349255974
+Total Reads:389000000 Reads with barcode and cut site overhang:350181323
+Total Reads:390000000 Reads with barcode and cut site overhang:351107571
+Total Reads:391000000 Reads with barcode and cut site overhang:352034077
+Total Reads:392000000 Reads with barcode and cut site overhang:352958885
+Total Reads:393000000 Reads with barcode and cut site overhang:353885430
+Total Reads:394000000 Reads with barcode and cut site overhang:354746193
+Total Reads:395000000 Reads with barcode and cut site overhang:355399923
+Total Reads:396000000 Reads with barcode and cut site overhang:356237332
+Total Reads:397000000 Reads with barcode and cut site overhang:357164211
+Total Reads:398000000 Reads with barcode and cut site overhang:358091193
+Total number of reads in lane=398315224
+Total number of good barcoded reads=358382419
+Timing process (sorting, collapsing, and writing TagCount to file).
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4332694
+Unique tags retained:1961730
+1961730 tags will be output to /home/mshu/UNEAK/tagCounts/18231_HGGWTBBXX_6_C2_ApeKIPinus_X5.cnt
+These 1961730 tags were covered by 6294424 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/18231_HGGWTBBXX_6_C2_ApeKIPinus_X5.cnt
+Number of Tags in file:1961730
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4619781
+Unique tags retained:2103536
+2103536 tags will be output to /home/mshu/UNEAK/tagCounts/18814_HGGWTBBXX_6_A7_ApeKIPinus_X5.cnt
+These 2103536 tags were covered by 6723317 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/18814_HGGWTBBXX_6_A7_ApeKIPinus_X5.cnt
+Number of Tags in file:2103536
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:6401162
+Unique tags retained:2086462
+2086462 tags will be output to /home/mshu/UNEAK/tagCounts/3006_HGGWTBBXX_6_B2_ApeKIPinus_X5.cnt
+These 2086462 tags were covered by 8487624 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3006_HGGWTBBXX_6_B2_ApeKIPinus_X5.cnt
+Number of Tags in file:2086462
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5369015
+Unique tags retained:2005012
+2005012 tags will be output to /home/mshu/UNEAK/tagCounts/3015_HGGWTBBXX_6_A3_ApeKIPinus_X5.cnt
+These 2005012 tags were covered by 7374027 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3015_HGGWTBBXX_6_A3_ApeKIPinus_X5.cnt
+Number of Tags in file:2005012
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5338740
+Unique tags retained:2234244
+2234244 tags will be output to /home/mshu/UNEAK/tagCounts/3019_HGGWTBBXX_6_D7_ApeKIPinus_X5.cnt
+These 2234244 tags were covered by 7572984 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3019_HGGWTBBXX_6_D7_ApeKIPinus_X5.cnt
+Number of Tags in file:2234244
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4819237
+Unique tags retained:2039157
+2039157 tags will be output to /home/mshu/UNEAK/tagCounts/3020_HGGWTBBXX_6_D8_ApeKIPinus_X5.cnt
+These 2039157 tags were covered by 6858394 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3020_HGGWTBBXX_6_D8_ApeKIPinus_X5.cnt
+Number of Tags in file:2039157
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5055044
+Unique tags retained:1854070
+1854070 tags will be output to /home/mshu/UNEAK/tagCounts/3022_HGGWTBBXX_6_B4_ApeKIPinus_X5.cnt
+These 1854070 tags were covered by 6909114 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3022_HGGWTBBXX_6_B4_ApeKIPinus_X5.cnt
+Number of Tags in file:1854070
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5199245
+Unique tags retained:1991214
+1991214 tags will be output to /home/mshu/UNEAK/tagCounts/3034_HGGWTBBXX_6_C11_ApeKIPinus_X5.cnt
+These 1991214 tags were covered by 7190459 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3034_HGGWTBBXX_6_C11_ApeKIPinus_X5.cnt
+Number of Tags in file:1991214
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:15640432
+Unique tags retained:4224018
+4224018 tags will be output to /home/mshu/UNEAK/tagCounts/3039_HGGWTBBXX_6_A4_ApeKIPinus_X5.cnt
+These 4224018 tags were covered by 19864450 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3039_HGGWTBBXX_6_A4_ApeKIPinus_X5.cnt
+Number of Tags in file:4224018
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5073742
+Unique tags retained:1936161
+1936161 tags will be output to /home/mshu/UNEAK/tagCounts/3057_HGGWTBBXX_6_A12_ApeKIPinus_X5.cnt
+These 1936161 tags were covered by 7009903 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3057_HGGWTBBXX_6_A12_ApeKIPinus_X5.cnt
+Number of Tags in file:1936161
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5037711
+Unique tags retained:1954759
+1954759 tags will be output to /home/mshu/UNEAK/tagCounts/3066_HGGWTBBXX_6_D9_ApeKIPinus_X5.cnt
+These 1954759 tags were covered by 6992470 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3066_HGGWTBBXX_6_D9_ApeKIPinus_X5.cnt
+Number of Tags in file:1954759
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:10144306
+Unique tags retained:3308243
+3308243 tags will be output to /home/mshu/UNEAK/tagCounts/3071_HGGWTBBXX_6_D10_ApeKIPinus_X5.cnt
+These 3308243 tags were covered by 13452549 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3071_HGGWTBBXX_6_D10_ApeKIPinus_X5.cnt
+Number of Tags in file:3308243
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4307479
+Unique tags retained:1815736
+1815736 tags will be output to /home/mshu/UNEAK/tagCounts/3073_HGGWTBBXX_6_B3_ApeKIPinus_X5.cnt
+These 1815736 tags were covered by 6123215 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3073_HGGWTBBXX_6_B3_ApeKIPinus_X5.cnt
+Number of Tags in file:1815736
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:7012737
+Unique tags retained:2748024
+2748024 tags will be output to /home/mshu/UNEAK/tagCounts/3075_HGGWTBBXX_6_A8_ApeKIPinus_X5.cnt
+These 2748024 tags were covered by 9760761 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3075_HGGWTBBXX_6_A8_ApeKIPinus_X5.cnt
+Number of Tags in file:2748024
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5600942
+Unique tags retained:1948614
+1948614 tags will be output to /home/mshu/UNEAK/tagCounts/3091_HGGWTBBXX_6_A1_ApeKIPinus_X5.cnt
+These 1948614 tags were covered by 7549556 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3091_HGGWTBBXX_6_A1_ApeKIPinus_X5.cnt
+Number of Tags in file:1948614
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5468899
+Unique tags retained:1925994
+1925994 tags will be output to /home/mshu/UNEAK/tagCounts/3137_HGGWTBBXX_6_B1_ApeKIPinus_X5.cnt
+These 1925994 tags were covered by 7394893 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3137_HGGWTBBXX_6_B1_ApeKIPinus_X5.cnt
+Number of Tags in file:1925994
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4100279
+Unique tags retained:1578868
+1578868 tags will be output to /home/mshu/UNEAK/tagCounts/3156_HGGWTBBXX_6_D3_ApeKIPinus_X5.cnt
+These 1578868 tags were covered by 5679147 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3156_HGGWTBBXX_6_D3_ApeKIPinus_X5.cnt
+Number of Tags in file:1578868
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5369834
+Unique tags retained:2081444
+2081444 tags will be output to /home/mshu/UNEAK/tagCounts/3174_HGGWTBBXX_6_D6_ApeKIPinus_X5.cnt
+These 2081444 tags were covered by 7451278 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3174_HGGWTBBXX_6_D6_ApeKIPinus_X5.cnt
+Number of Tags in file:2081444
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4779727
+Unique tags retained:1723793
+1723793 tags will be output to /home/mshu/UNEAK/tagCounts/3178_HGGWTBBXX_6_B6_ApeKIPinus_X5.cnt
+These 1723793 tags were covered by 6503520 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3178_HGGWTBBXX_6_B6_ApeKIPinus_X5.cnt
+Number of Tags in file:1723793
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5746377
+Unique tags retained:2127166
+2127166 tags will be output to /home/mshu/UNEAK/tagCounts/3181_HGGWTBBXX_6_C7_ApeKIPinus_X5.cnt
+These 2127166 tags were covered by 7873543 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3181_HGGWTBBXX_6_C7_ApeKIPinus_X5.cnt
+Number of Tags in file:2127166
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4832263
+Unique tags retained:1780457
+1780457 tags will be output to /home/mshu/UNEAK/tagCounts/3185_HGGWTBBXX_6_B5_ApeKIPinus_X5.cnt
+These 1780457 tags were covered by 6612720 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3185_HGGWTBBXX_6_B5_ApeKIPinus_X5.cnt
+Number of Tags in file:1780457
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:9674034
+Unique tags retained:2837711
+2837711 tags will be output to /home/mshu/UNEAK/tagCounts/3186_HGGWTBBXX_6_A6_ApeKIPinus_X5.cnt
+These 2837711 tags were covered by 12511745 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3186_HGGWTBBXX_6_A6_ApeKIPinus_X5.cnt
+Number of Tags in file:2837711
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3602789
+Unique tags retained:1653894
+1653894 tags will be output to /home/mshu/UNEAK/tagCounts/3221_HGGWTBBXX_6_C9_ApeKIPinus_X5.cnt
+These 1653894 tags were covered by 5256683 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3221_HGGWTBBXX_6_C9_ApeKIPinus_X5.cnt
+Number of Tags in file:1653894
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:10348883
+Unique tags retained:3247018
+3247018 tags will be output to /home/mshu/UNEAK/tagCounts/3229_HGGWTBBXX_6_C8_ApeKIPinus_X5.cnt
+These 3247018 tags were covered by 13595901 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3229_HGGWTBBXX_6_C8_ApeKIPinus_X5.cnt
+Number of Tags in file:3247018
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:7584520
+Unique tags retained:2913383
+2913383 tags will be output to /home/mshu/UNEAK/tagCounts/3242_HGGWTBBXX_6_A2_ApeKIPinus_X5.cnt
+These 2913383 tags were covered by 10497903 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3242_HGGWTBBXX_6_A2_ApeKIPinus_X5.cnt
+Number of Tags in file:2913383
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5493276
+Unique tags retained:2023784
+2023784 tags will be output to /home/mshu/UNEAK/tagCounts/3247_HGGWTBBXX_6_C5_ApeKIPinus_X5.cnt
+These 2023784 tags were covered by 7517060 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3247_HGGWTBBXX_6_C5_ApeKIPinus_X5.cnt
+Number of Tags in file:2023784
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4615948
+Unique tags retained:1831408
+1831408 tags will be output to /home/mshu/UNEAK/tagCounts/3255_HGGWTBBXX_6_A5_ApeKIPinus_X5.cnt
+These 1831408 tags were covered by 6447356 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3255_HGGWTBBXX_6_A5_ApeKIPinus_X5.cnt
+Number of Tags in file:1831408
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4838331
+Unique tags retained:1854942
+1854942 tags will be output to /home/mshu/UNEAK/tagCounts/3267_HGGWTBBXX_6_C10_ApeKIPinus_X5.cnt
+These 1854942 tags were covered by 6693273 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3267_HGGWTBBXX_6_C10_ApeKIPinus_X5.cnt
+Number of Tags in file:1854942
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4076783
+Unique tags retained:1723519
+1723519 tags will be output to /home/mshu/UNEAK/tagCounts/3275_HGGWTBBXX_6_D5_ApeKIPinus_X5.cnt
+These 1723519 tags were covered by 5800302 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3275_HGGWTBBXX_6_D5_ApeKIPinus_X5.cnt
+Number of Tags in file:1723519
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3366766
+Unique tags retained:1426737
+1426737 tags will be output to /home/mshu/UNEAK/tagCounts/3277_HGGWTBBXX_6_B9_ApeKIPinus_X5.cnt
+These 1426737 tags were covered by 4793503 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3277_HGGWTBBXX_6_B9_ApeKIPinus_X5.cnt
+Number of Tags in file:1426737
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:6248351
+Unique tags retained:2170914
+2170914 tags will be output to /home/mshu/UNEAK/tagCounts/3282_HGGWTBBXX_6_C6_ApeKIPinus_X5.cnt
+These 2170914 tags were covered by 8419265 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3282_HGGWTBBXX_6_C6_ApeKIPinus_X5.cnt
+Number of Tags in file:2170914
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3806906
+Unique tags retained:1837649
+1837649 tags will be output to /home/mshu/UNEAK/tagCounts/3286_HGGWTBBXX_6_D1_ApeKIPinus_X5.cnt
+These 1837649 tags were covered by 5644555 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3286_HGGWTBBXX_6_D1_ApeKIPinus_X5.cnt
+Number of Tags in file:1837649
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5269091
+Unique tags retained:1731885
+1731885 tags will be output to /home/mshu/UNEAK/tagCounts/3289_HGGWTBBXX_6_A9_ApeKIPinus_X5.cnt
+These 1731885 tags were covered by 7000976 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3289_HGGWTBBXX_6_A9_ApeKIPinus_X5.cnt
+Number of Tags in file:1731885
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3413179
+Unique tags retained:1455153
+1455153 tags will be output to /home/mshu/UNEAK/tagCounts/3293_HGGWTBBXX_6_D4_ApeKIPinus_X5.cnt
+These 1455153 tags were covered by 4868332 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3293_HGGWTBBXX_6_D4_ApeKIPinus_X5.cnt
+Number of Tags in file:1455153
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:9339859
+Unique tags retained:2936154
+2936154 tags will be output to /home/mshu/UNEAK/tagCounts/3302_HGGWTBBXX_6_B11_ApeKIPinus_X5.cnt
+These 2936154 tags were covered by 12276013 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3302_HGGWTBBXX_6_B11_ApeKIPinus_X5.cnt
+Number of Tags in file:2936154
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5012002
+Unique tags retained:1880306
+1880306 tags will be output to /home/mshu/UNEAK/tagCounts/3306_HGGWTBBXX_6_D2_ApeKIPinus_X5.cnt
+These 1880306 tags were covered by 6892308 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3306_HGGWTBBXX_6_D2_ApeKIPinus_X5.cnt
+Number of Tags in file:1880306
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5140468
+Unique tags retained:1887437
+1887437 tags will be output to /home/mshu/UNEAK/tagCounts/3335_HGGWTBBXX_6_B10_ApeKIPinus_X5.cnt
+These 1887437 tags were covered by 7027905 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3335_HGGWTBBXX_6_B10_ApeKIPinus_X5.cnt
+Number of Tags in file:1887437
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5144406
+Unique tags retained:2044163
+2044163 tags will be output to /home/mshu/UNEAK/tagCounts/3339_HGGWTBBXX_6_B8_ApeKIPinus_X5.cnt
+These 2044163 tags were covered by 7188569 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3339_HGGWTBBXX_6_B8_ApeKIPinus_X5.cnt
+Number of Tags in file:2044163
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3028521
+Unique tags retained:1403084
+1403084 tags will be output to /home/mshu/UNEAK/tagCounts/3356_HGGWTBBXX_6_B7_ApeKIPinus_X5.cnt
+These 1403084 tags were covered by 4431605 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3356_HGGWTBBXX_6_B7_ApeKIPinus_X5.cnt
+Number of Tags in file:1403084
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5144942
+Unique tags retained:1894271
+1894271 tags will be output to /home/mshu/UNEAK/tagCounts/3411_HGGWTBBXX_6_D11_ApeKIPinus_X5.cnt
+These 1894271 tags were covered by 7039213 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3411_HGGWTBBXX_6_D11_ApeKIPinus_X5.cnt
+Number of Tags in file:1894271
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4036539
+Unique tags retained:1646244
+1646244 tags will be output to /home/mshu/UNEAK/tagCounts/3467_HGGWTBBXX_6_C4_ApeKIPinus_X5.cnt
+These 1646244 tags were covered by 5682783 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3467_HGGWTBBXX_6_C4_ApeKIPinus_X5.cnt
+Number of Tags in file:1646244
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5712125
+Unique tags retained:2111211
+2111211 tags will be output to /home/mshu/UNEAK/tagCounts/3468_HGGWTBBXX_6_C12_ApeKIPinus_X5.cnt
+These 2111211 tags were covered by 7823336 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3468_HGGWTBBXX_6_C12_ApeKIPinus_X5.cnt
+Number of Tags in file:2111211
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4293841
+Unique tags retained:1677378
+1677378 tags will be output to /home/mshu/UNEAK/tagCounts/3474_HGGWTBBXX_6_C3_ApeKIPinus_X5.cnt
+These 1677378 tags were covered by 5971219 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3474_HGGWTBBXX_6_C3_ApeKIPinus_X5.cnt
+Number of Tags in file:1677378
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4481300
+Unique tags retained:1688927
+1688927 tags will be output to /home/mshu/UNEAK/tagCounts/3508_HGGWTBBXX_6_C1_ApeKIPinus_X5.cnt
+These 1688927 tags were covered by 6170227 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3508_HGGWTBBXX_6_C1_ApeKIPinus_X5.cnt
+Number of Tags in file:1688927
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4485461
+Unique tags retained:1772262
+1772262 tags will be output to /home/mshu/UNEAK/tagCounts/3512_HGGWTBBXX_6_B12_ApeKIPinus_X5.cnt
+These 1772262 tags were covered by 6257723 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3512_HGGWTBBXX_6_B12_ApeKIPinus_X5.cnt
+Number of Tags in file:1772262
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3327901
+Unique tags retained:1494001
+1494001 tags will be output to /home/mshu/UNEAK/tagCounts/3524_HGGWTBBXX_6_A10_ApeKIPinus_X5.cnt
+These 1494001 tags were covered by 4821902 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/3524_HGGWTBBXX_6_A10_ApeKIPinus_X5.cnt
+Number of Tags in file:1494001
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5726918
+Unique tags retained:2328159
+2328159 tags will be output to /home/mshu/UNEAK/tagCounts/4203_HGGWTBBXX_6_A11_ApeKIPinus_X5.cnt
+These 2328159 tags were covered by 8055077 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/4203_HGGWTBBXX_6_A11_ApeKIPinus_X5.cnt
+Number of Tags in file:2328159
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:9912
+Unique tags retained:9425
+9425 tags will be output to /home/mshu/UNEAK/tagCounts/water_HGGWTBBXX_6_D12_ApeKIPinus_X5.cnt
+These 9425 tags were covered by 19337 matching reads
+Tags written to:/home/mshu/UNEAK/tagCounts/water_HGGWTBBXX_6_D12_ApeKIPinus_X5.cnt
+Number of Tags in file:9425
+Process took 329670 milliseconds.
+Finished reading 2 of 2 sequence files.
