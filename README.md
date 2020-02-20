@@ -1,5 +1,5 @@
 # UNEAK
-Using UNEAK (*de novo*) pipeline to call SNPs with GBS raw data of 94 ponderosa pine (Pinus ponderosa)
+Using UNEAK (*de novo*) pipelineto call SNPs with GBS raw data of **94 ponderosa pine** (*Pinus ponderosa*)
 ## Software
 - Version: TASSEL Version 3.0, UNEAK
 -	Website: https://tassel.bitbucket.io/TasselArchived.html
